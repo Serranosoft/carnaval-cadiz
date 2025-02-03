@@ -9,25 +9,39 @@ body {
 .list {
     height: 100%;
     padding: 0.5rem;
+    &.hidden {
+        display: none;
+    }
     .wrapper {
         position: relative;
         height: 100%;
         .box {
             border: 3px solid red;
         }
-        #toggle-map {
-            position: absolute;
-            left: 50%;
-            bottom: 1rem;
-            transform: translateX(-50%);
-        }
     }
+    
+}
 
+// Botones flotantes (Tanto en el mapa como en el listado)
+.floating-button {
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    z-index: 1;
+    &.top {
+        top: 1rem;
+        bottom: unset;
+    }
 }
 
 
 // Mapa
 #map {
+    display: none;
+    &.show {
+        display: block;
+    }
     .marker {
         display: block;
         padding: 0;

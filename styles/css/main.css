@@ -8,6 +8,9 @@ body {
   height: 100%;
   padding: 0.5rem;
 }
+.list.hidden {
+  display: none;
+}
 .list .wrapper {
   position: relative;
   height: 100%;
@@ -15,13 +18,25 @@ body {
 .list .wrapper .box {
   border: 3px solid red;
 }
-.list .wrapper #toggle-map {
+
+.floating-button {
   position: absolute;
   left: 50%;
   bottom: 1rem;
   transform: translateX(-50%);
+  z-index: 1;
+}
+.floating-button.top {
+  top: 1rem;
+  bottom: unset;
 }
 
+#map {
+  display: none;
+}
+#map.show {
+  display: block;
+}
 #map .marker {
   display: block;
   padding: 0;
