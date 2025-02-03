@@ -1,3 +1,10 @@
+// Update Map Size
+window.addEventListener("message", message => {
+    console.log(message.data);
+});
+
+
+
 // Global
 const listElement = document.getElementById("list");
 const mapElement = document.getElementById("map");
