@@ -49,4 +49,8 @@ body {
         border-radius: 50%;
         cursor: pointer;
     }
+
+    details.maplibregl-ctrl-attrib {
+        display: none;
+    }
 }
