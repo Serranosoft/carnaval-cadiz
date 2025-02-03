@@ -7,16 +7,10 @@
     <title>Carnaval Cádiz</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='/styles/css/main.css'>
-    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
-    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="map" style="width: 100%; height: 900px">
-        <button id="toggle-list" class="floating-button">Ver listado</button>
-    </div>
-
-    <div id="list" class="list">
+    <div class="list">
         <div class="wrapper">
             <div class="box">
                 <div class="row">
@@ -30,59 +24,10 @@
                 <span>Horario: 18:00 - 18:30</span>
             </div>
 
-
-            <button id="toggle-map" class="floating-button">Ver mapa</button>
+            <a href="map.html" class="floating-button">Ver mapa</a>
         </div>
     </div>
 </body>
 
 <script src='main.js'></script>
-
-
-<script>
-    const geojson = {
-        'type': 'FeatureCollection',
-        'features': [
-            {
-                'type': 'Feature',
-                'properties': {
-                    'message': 'Foo',
-                    'iconSize': [60, 60]
-                },
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [-6.2809909, 36.5158003]
-                }
-            },
-        ]
-    };
-
-    const map = new maplibregl.Map({
-        container: 'map',
-        style:
-            'https://tiles.openfreemap.org/styles/liberty',
-        center: [-6.2809909, 36.5113303],
-        zoom: 16
-    });
-
-    // add markers to map
-    geojson.features.forEach((marker) => {
-        // create a DOM element for the marker
-        const el = document.createElement('div');
-        el.className = 'marker';
-        el.style.backgroundImage = `url(https://picsum.photos/${marker.properties.iconSize.join('/')}/)`;
-        el.style.width = `${marker.properties.iconSize[0]}px`;
-        el.style.height = `${marker.properties.iconSize[1]}px`;
-
-        el.addEventListener('click', () => {
-            window.alert(marker.properties.message);
-        });
-
-        // add marker to map
-        new maplibregl.Marker({ element: el })
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map);
-    });
-</script>
-
 </html>

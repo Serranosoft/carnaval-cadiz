@@ -31,12 +31,6 @@ body {
   bottom: unset;
 }
 
-#map {
-  display: none;
-}
-#map.show {
-  display: block;
-}
 #map .marker {
   display: block;
   padding: 0;

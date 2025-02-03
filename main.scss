@@ -38,10 +38,6 @@ body {
 
 // Mapa
 #map {
-    display: none;
-    &.show {
-        display: block;
-    }
     .marker {
         display: block;
         padding: 0;
