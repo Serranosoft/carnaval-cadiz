@@ -1,0 +1,38 @@
+// Reset
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+// Listado
+.list {
+    height: 100%;
+    padding: 0.5rem;
+    .wrapper {
+        position: relative;
+        height: 100%;
+        .box {
+            border: 3px solid red;
+        }
+        #toggle-map {
+            position: absolute;
+            left: 50%;
+            bottom: 1rem;
+            transform: translateX(-50%);
+        }
+    }
+
+}
+
+
+// Mapa
+#map {
+    .marker {
+        display: block;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}

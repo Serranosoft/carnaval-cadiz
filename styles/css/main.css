@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  height: 100%;
+  padding: 0.5rem;
+}
+.list .wrapper {
+  position: relative;
+  height: 100%;
+}
+.list .wrapper .box {
+  border: 3px solid red;
+}
+.list .wrapper #toggle-map {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+}
+
+#map .marker {
+  display: block;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
