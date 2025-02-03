@@ -1,6 +1,6 @@
 // Update Map Size
 window.addEventListener("message", message => {
-    console.log(message.data);
+    alert(message.data);
 });
 
 
