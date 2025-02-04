@@ -3,6 +3,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    font-family: "Rubik", serif;
 }
 
 // Listado
@@ -38,7 +39,10 @@ body {
 
 // Mapa
 #map {
+    position: relative;
     .marker {
+        width: 60px;
+        height: 60px;
         display: block;
         padding: 0;
         border: none;
