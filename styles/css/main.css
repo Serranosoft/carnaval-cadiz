@@ -2,21 +2,76 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: "Rubik", serif;
+}
+
+.muted {
+  font-size: 1rem;
+  color: #ae2012;
+  letter-spacing: -0.75px;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -1.25px;
+  line-height: 1.05;
 }
 
 .list {
   height: 100%;
   padding: 0.5rem;
 }
-.list.hidden {
-  display: none;
-}
 .list .wrapper {
   position: relative;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .list .wrapper .box {
-  border: 3px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.list .wrapper .box .img-container {
+  flex: 0 1 150px;
+  display: flex;
+  border-radius: 1.5rem;
+}
+.list .wrapper .box .img-container img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1.5rem;
+}
+.list .wrapper .box .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.list .wrapper .box .info .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.list .wrapper .box .info button {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #ae2012;
 }
 
 .floating-button {
@@ -31,7 +86,12 @@ body {
   bottom: unset;
 }
 
+#map {
+  position: relative;
+}
 #map .marker {
+  width: 60px;
+  height: 60px;
   display: block;
   padding: 0;
   border: none;

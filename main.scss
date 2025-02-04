@@ -4,20 +4,78 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Rubik", serif;
+    
+}
+
+// Subtexto
+.muted {
+    font-size: 1rem;
+    color: #ae2012;
+    letter-spacing: -0.75px;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1.25px;
+    line-height: 1.05;
 }
 
 // Listado
 .list {
     height: 100%;
     padding: 0.5rem;
-    &.hidden {
-        display: none;
-    }
     .wrapper {
         position: relative;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;  
         .box {
-            border: 3px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            padding: 0.5rem;
+            gap: 1rem;
+            border-radius: 1.5rem;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            .img-container {
+                flex: 0 1 150px;
+                display: flex; 
+                border-radius: 1.5rem;    
+                img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    border-radius: 1.5rem;
+                }
+            }
+    
+            .info {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 0.5rem;
+                gap: 0.5rem;
+    
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+
+                button {
+                    padding: 1rem;
+                    font-size: 1rem;
+                    color: #fff;
+                    font-weight: 600;
+                    border: none;
+                    border-radius: 1.5rem;
+                    background-color: #ae2012;
+                }
+            }
         }
     }
     
@@ -35,6 +93,7 @@ body {
         bottom: unset;
     }
 }
+
 
 
 // Mapa
