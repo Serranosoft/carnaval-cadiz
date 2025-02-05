@@ -27,11 +27,10 @@ function renderMap() {
 }
 
 function resizeMap() {
-    let mapSize = 900;
     document.addEventListener("message", function (data) {
-        mapSize = data.data;
+        let mapSize = data.data;
+        mapElement.style.height = `${mapSize}px`;
     });
-    mapElement.style.height = `${mapSize}px`;
 }
 
 async function renderMarkers() {
