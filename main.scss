@@ -112,4 +112,19 @@ body {
     details.maplibregl-ctrl-attrib {
         display: none;
     }
+
+    .panel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        z-index: 1;
+        transition: width 0.25s;
+        overflow: hidden;
+        background-color: #fff;
+        &.show {
+            width: 70%;
+        }
+    }
 }
