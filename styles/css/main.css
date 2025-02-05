@@ -18,6 +18,27 @@ body {
   line-height: 1.05;
 }
 
+button,
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #ae2012;
+  text-decoration: none;
+  font-family: "Rubik", serif;
+}
+button svg,
+.button svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
 .list {
   height: 100%;
   padding: 0.5rem;
@@ -64,26 +85,13 @@ body {
   flex-direction: column;
   gap: 0.5rem;
 }
-.list .wrapper .box .info button {
-  padding: 1rem;
-  font-size: 1rem;
-  color: #fff;
-  font-weight: 600;
-  border: none;
-  border-radius: 1.5rem;
-  background-color: #ae2012;
-}
 
 .floating-button {
-  position: absolute;
+  position: fixed;
+  bottom: 2.5rem;
   left: 50%;
-  bottom: 1rem;
   transform: translateX(-50%);
   z-index: 1;
-}
-.floating-button.top {
-  top: 1rem;
-  bottom: unset;
 }
 
 #map {
