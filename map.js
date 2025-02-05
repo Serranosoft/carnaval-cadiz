@@ -68,10 +68,14 @@ function getAgrupacionesFromLatLng(agrupaciones, lng, lat) {
 function openPanel(agrupaciones, lugar) {
     panelElement.classList.add("show");
     const result = getAgrupacionesFromLatLng(agrupaciones, lugar.lng, lugar.lat);
-    renderPanelInfo(result);
+    renderPanelInfo(result, lugar.nombre);
 }
 
-function renderPanelInfo(agrupaciones) {
+function renderPanelInfo(agrupaciones, lugar) {
+    console.log(lugar);
+    const calle = panelElement.querySelector(".calle");
+    calle.textContent = lugar;
+
     agrupaciones.forEach((agrupacion) => {
         const panelAgrupacionElement = panelAgrupacionTemplate.content.cloneNode(true);
         const nombre = panelAgrupacionElement.querySelector(".nombre");
@@ -84,10 +88,10 @@ function renderPanelInfo(agrupaciones) {
         
         agrupacion.actuaciones.forEach((actuacion) => {
             const panelActuacionElement = panelActuacionTemplate.content.cloneNode(true);
-            const lugar = panelActuacionElement.querySelector(".lugar");
+            // const lugar = panelActuacionElement.querySelector(".lugar");
             const fecha = panelActuacionElement.querySelector(".fecha");
             const hora = panelActuacionElement.querySelector(".hora");
-            lugar.textContent = actuacion.lugar.nombre;
+            // lugar.textContent = actuacion.lugar.nombre;
             fecha.textContent = actuacion.fecha;
             hora.textContent = actuacion.hora;
 

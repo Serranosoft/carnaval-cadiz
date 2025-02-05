@@ -62,14 +62,17 @@
     ],
     "lugares": [
         {
+            "nombre": "Calle de la XXX",
             "lat": 36.5158003,
             "lng": -6.2809909
         },
         {
+            "nombre": "Calle de la YYY",
             "lat": 37.5158003,
             "lng": -6.2809909
         },
         {
+            "nombre": "Calle de la ZZZ",
             "lat": 38.5158003,
             "lng": -6.2809909
         }
