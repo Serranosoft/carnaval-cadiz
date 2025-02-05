@@ -7,7 +7,7 @@ body {
 
 .muted {
   font-size: 1rem;
-  color: #ae2012;
+  color: #570000;
   letter-spacing: -0.75px;
 }
 
@@ -29,7 +29,7 @@ button,
   font-weight: 600;
   border: none;
   border-radius: 1.5rem;
-  background-color: #ae2012;
+  background-color: #570000;
   text-decoration: none;
   font-family: "Rubik", serif;
 }
@@ -37,6 +37,25 @@ button svg,
 .button svg {
   width: 1.35rem;
   height: 1.35rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+.title .updated {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #5c5c5c;
+  font-size: 0.85rem;
+}
+.title .updated svg {
+  width: 1.07rem;
+  height: 1.07rem;
 }
 
 .list {
@@ -92,7 +111,6 @@ button svg,
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  background: #570000;
   border: 3px solid #fff;
 }
 
@@ -124,4 +142,11 @@ button svg,
 }
 #map .panel.show {
   width: 70%;
+}
+#map a {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }

@@ -13,6 +13,27 @@
 </head>
 
 <body>
+    <div class="title">
+        <a href="map.html" class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
+                <path d="M9 4v13" />
+                <path d="M15 7v13" />
+            </svg>
+            <span>Ver mapa</span>
+        </a>
+        <div class="updated">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+                <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+            </svg>
+            <span id="time-span"></span>
+        </div>
+    </div>
     <div class="list">
         <div class="wrapper">
             <div class="box">
@@ -66,16 +87,6 @@
 
         </div>
     </div>
-    <a href="map.html" class="button floating-button">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
-            <path d="M9 4v13" />
-            <path d="M15 7v13" />
-        </svg>
-        <span>Ver mapa</span>
-    </a>
 
     <template id="box-template">
         <span class="span-1"></span>
