@@ -8,55 +8,66 @@
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
-                    "hora": "18:00",
-                    "lugar": {
-                        "nombre": "nombre de la calle 1",
-                        "lat": 36.5158003,
-                        "lng": -6.2809909
-                    }
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
                 },
                 {
                     "fecha": "17/05/25",
-                    "hora": "14:30",
-                    "lugar": {
-                        "nombre": "nombre de la calle 1",
-                        "lat": 36.5158003,
-                        "lng": -6.2809909
-                    }
-                },
-                {
-                    "fecha": "16/05/25",
-                    "hora": "18:00",
-                    "lugar": {
-                        "nombre": "nombre de la calle 2",
-                        "lat": 15.25555,
-                        "lng": -6.111
-                    }
-                },
-                {
-                    "fecha": "16/05/25",
-                    "hora": "19:00",
-                    "lugar": {
-                        "nombre": "nombre de la calle 3",
-                        "lat": 15.25555,
-                        "lng": -6.111
-                    }
-                }
-            ]
-        },
-        {
-            "nombre": "Nombre2",
-            "apodo": "Apodo2",
-            "posicion": "Posición 2",
-            "actuaciones": [
-                {
-                    "fecha": "15/05/25",
-                    "hora": "18:00",
-                    "lugar": {
-                        "nombre": "nombre de la calle 4",
-                        "lat": 15.25555,
-                        "lng": -6.111
-                    }
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
                 }
             ]
         }

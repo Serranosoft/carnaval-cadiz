@@ -49,28 +49,35 @@ async function renderMarkers() {
 }
 
 function getAgrupacionesFromLatLng(agrupaciones, lng, lat) {
+    return agrupaciones
+    .map(agrupacion => {
+      // Filtramos las actuaciones que tienen al menos un metadata con la latitud y longitud dadas
+      const actuacionesFiltradas = agrupacion.actuaciones
+        .map(actuacion => {
+          // Filtramos solo los metadata que coinciden con lat y lng
+          const metadataFiltrada = actuacion.metadata.filter(meta => 
+            meta.lat === lat && meta.lng === lng
+          );
 
-    let result = [];
+          // Si hay metadata coincidentes, devolvemos la actuación con solo esos metadata
+          return metadataFiltrada.length > 0 
+            ? { ...actuacion, metadata: metadataFiltrada } 
+            : null;
+        })
+        .filter(actuacion => actuacion !== null); // Eliminamos actuaciones vacías
 
-    // Encuentra todas las coincidencias de agrupaciones en un lugar en concreto y deja como null las que no.
-    result = agrupaciones.map((agrupacion) => {
-        const coincidences = agrupacion.actuaciones.filter((actuacion) => actuacion.lugar.lat === lat && actuacion.lugar.lng === lng);
-        if (coincidences.length > 0) {
-            return { ...agrupacion, actuaciones: coincidences };
-        }
-        return null;
+      // Si hay actuaciones válidas, devolvemos la agrupación con solo esas actuaciones
+      return actuacionesFiltradas.length > 0 
+        ? { ...agrupacion, actuaciones: actuacionesFiltradas } 
+        : null;
     })
-
-    // Filtra el resultado para no tener valores nulos
-    result = result.filter(agrupacion => agrupacion !== null);
-
-    return result;
+    .filter(agrupacion => agrupacion !== null); // Eliminamos agrupaciones vacías
 }
 
 function openPanel(agrupaciones, lugar) {
-    console.log(agrupaciones);
     panelElement.classList.add("show");
     const result = getAgrupacionesFromLatLng(agrupaciones, lugar.lng, lugar.lat);
+    console.log(result);
     renderPanelInfo(result, lugar.nombre);
 }
 
@@ -96,23 +103,29 @@ function renderPanelInfo(agrupaciones, lugar) {
         const actuaciones = document.createElement("div");
         actuaciones.classList.add("panel-actuaciones");
 
-        const actuacionesTitle = document.createElement("span");
-        actuacionesTitle.classList.add("text");
-        actuacionesTitle.textContent = "Horarios"
-        actuaciones.appendChild(actuacionesTitle)
+        // const actuacionesTitle = document.createElement("span");
+        // actuacionesTitle.classList.add("text");
+        // actuacionesTitle.textContent = "Horarios"
+        // actuaciones.appendChild(actuacionesTitle)
 
         agrupacion.actuaciones.forEach((actuacion) => {
             const panelActuacionFragment = panelActuacionTemplate.content.cloneNode(true);
-            
+            const panelActuacionElement = panelActuacionFragment.querySelector(".panel-actuaciones-item");
+
             const fecha = panelActuacionFragment.querySelector(".fecha");
-            const hora = panelActuacionFragment.querySelector(".hora");
-            
             fecha.textContent = actuacion.fecha;
-            hora.textContent = `a las ${actuacion.hora}`;
-            
-            actuaciones.appendChild(panelActuacionFragment);
+
+            actuacion.metadata.forEach((metadata) => {
+                const hora = document.createElement("span");
+                hora.classList.add("muted");
+                hora.textContent = metadata.hora;
+                panelActuacionElement.appendChild(hora);
+            })
+
+
+            actuaciones.appendChild(panelActuacionElement);
         })
-        
+
         panelAgrupacionElement.appendChild(actuaciones);
         panelContentElement.appendChild(panelAgrupacionElement)
     })
