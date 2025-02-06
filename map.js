@@ -1,6 +1,8 @@
 // Variables
 const mapElement = document.getElementById("map");
 const panelElement = document.getElementById("panel");
+const panelWrapperElement = panelElement.querySelector(".wrapper");
+const panelContentElement = panelElement.querySelector(".content");
 const panelAgrupacionTemplate = document.getElementById("panel-agrupacion-template");
 const panelActuacionTemplate = document.getElementById("panel-actuacion-template");
 let map;
@@ -19,7 +21,7 @@ function renderMap() {
         container: 'map',
         style: 'https://tiles.openfreemap.org/styles/liberty',
         center: [-6.2809909, 36.5113303],
-        zoom: 16
+        zoom: 12.75
     });
 
     const mapCanvasElement = mapElement.querySelector(".maplibregl-canvas");
@@ -66,47 +68,62 @@ function getAgrupacionesFromLatLng(agrupaciones, lng, lat) {
 }
 
 function openPanel(agrupaciones, lugar) {
+    console.log(agrupaciones);
     panelElement.classList.add("show");
     const result = getAgrupacionesFromLatLng(agrupaciones, lugar.lng, lugar.lat);
     renderPanelInfo(result, lugar.nombre);
 }
 
 function renderPanelInfo(agrupaciones, lugar) {
-    console.log(lugar);
-    const calle = panelElement.querySelector(".calle");
+    const calle = document.createElement("span");
+    calle.classList.add("text", "calle");
     calle.textContent = lugar;
+    panelWrapperElement.appendChild(calle);
 
     agrupaciones.forEach((agrupacion) => {
-        const panelAgrupacionElement = panelAgrupacionTemplate.content.cloneNode(true);
-        const nombre = panelAgrupacionElement.querySelector(".nombre");
-        const apodo = panelAgrupacionElement.querySelector(".apodo");
-        const posicion = panelAgrupacionElement.querySelector(".posicion");
-        
+        const panelAgrupacionFragment = panelAgrupacionTemplate.content.cloneNode(true);
+        const panelAgrupacionElement = panelAgrupacionFragment.querySelector(".panel-agrupacion");
+        const img = panelAgrupacionFragment.querySelector("img");
+        const nombre = panelAgrupacionFragment.querySelector(".nombre");
+        const apodo = panelAgrupacionFragment.querySelector(".apodo");
+        const posicion = panelAgrupacionFragment.querySelector(".posicion");
+
+        img.src = agrupacion.imagen;
         nombre.textContent = agrupacion.nombre;
         apodo.textContent = agrupacion.apodo;
         posicion.textContent = agrupacion.posicion;
-        
+
+        const actuaciones = document.createElement("div");
+        actuaciones.classList.add("panel-actuaciones");
+
+        const actuacionesTitle = document.createElement("span");
+        actuacionesTitle.classList.add("text");
+        actuacionesTitle.textContent = "Horarios"
+        actuaciones.appendChild(actuacionesTitle)
+
         agrupacion.actuaciones.forEach((actuacion) => {
-            const panelActuacionElement = panelActuacionTemplate.content.cloneNode(true);
-            // const lugar = panelActuacionElement.querySelector(".lugar");
-            const fecha = panelActuacionElement.querySelector(".fecha");
-            const hora = panelActuacionElement.querySelector(".hora");
-            // lugar.textContent = actuacion.lugar.nombre;
+            const panelActuacionFragment = panelActuacionTemplate.content.cloneNode(true);
+            
+            const fecha = panelActuacionFragment.querySelector(".fecha");
+            const hora = panelActuacionFragment.querySelector(".hora");
+            
             fecha.textContent = actuacion.fecha;
-            hora.textContent = actuacion.hora;
-
-            panelAgrupacionElement.appendChild(panelActuacionElement);
+            hora.textContent = `a las ${actuacion.hora}`;
+            
+            actuaciones.appendChild(panelActuacionFragment);
         })
-
-        panelElement.appendChild(panelAgrupacionElement)
+        
+        panelAgrupacionElement.appendChild(actuaciones);
+        panelContentElement.appendChild(panelAgrupacionElement)
     })
 
-    
+
 }
 
 function closePanel() {
     if (panelElement.classList.contains("show")) {
         panelElement.classList.remove("show");
-        panelElement.innerHTML = "";
+        panelWrapperElement.lastElementChild.remove();
+        panelContentElement.innerHTML = "";
     }
 }

@@ -1,9 +1,10 @@
 {
     "agrupaciones": [
         {
-            "nombre": "Nombre1",
-            "apodo": "Apodo1",
+            "nombre": "Los Pimpinelas de la Plaza Fragela",
+            "apodo": "Chirigota del Molina",
             "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",

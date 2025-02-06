@@ -29,19 +29,28 @@
             <span>Ver listado</span>
         </a>
         <div id="panel" class="panel">
-            <span class="calle"></span>
-            <template id="panel-agrupacion-template">
-                <span class="nombre"></span>
-                <span class="apodo"></span>
-                <span class="posicion"></span>
-            </template>
-            <template id="panel-actuacion-template">
-                <div class="panel-actuaciones">
-                    <span class="lugar"></span>
-                    <span class="fecha"></span>
-                    <span class="hora"></span>
+            <div class="wrapper">
+                <div class="content">
+                    <template id="panel-agrupacion-template">
+                        <div class="panel-agrupacion">
+                            <div class="row">
+                                <img />
+                                <div class="column">
+                                    <span class="nombre muted"></span>
+                                    <span class="apodo muted"></span>
+                                    <span class="posicion muted"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                    <template id="panel-actuacion-template">
+                        <div class="panel-actuaciones-item">
+                            <span class="muted fecha"></span>
+                            <span class="muted hora"></span>
+                        </div>
+                    </template>
                 </div>
-            </template>
+            </div>
         </div>
     </div>
 </body>
