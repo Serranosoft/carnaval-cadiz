@@ -36,7 +36,21 @@
     </div>
     <div class="list">
         <div class="wrapper">
-            <div class="box">
+            <template id="list-element-template">
+                <div class="box">
+                    <div class="img-container">
+                        <img />
+                    </div>
+                    <div class="info">
+                        <div class="content">
+                            <span class="muted apodo"></span>
+                            <span class="text nombre"></span>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </template>
+            <!-- <div class="box">
                 <div class="img-container">  
                 <img src="./src/tmp.jpg">
                 </div>
@@ -47,44 +61,7 @@
                 </div>   
                     <button>Ver horarios</button>
                 </div>  
-            </div>
-            <div class="box">
-                <div class="img-container">  
-                <img src="./src/tmp.jpg">
-                </div>
-                <div class="info">
-                    <div class="content">
-                    <span class="muted"> Chirigota del Molina</span>
-                    <span class="text"> Los Pimpinelas de la plaza Fragela </span>
-                </div>   
-                    <button>Ver horarios</button>
-                </div>  
-            </div>
-            <div class="box">
-                <div class="img-container">  
-                <img src="./src/tmp.jpg">
-                </div>
-                <div class="info">
-                    <div class="content">
-                    <span class="muted"> Chirigota del Molina</span>
-                    <span class="text"> Los Pimpinelas de la plaza Fragela </span>
-                </div>   
-                    <button>Ver horarios</button>
-                </div>  
-            </div>
-            <div class="box">
-                <div class="img-container">  
-                <img src="./src/tmp.jpg">
-                </div>
-                <div class="info">
-                    <div class="content">
-                    <span class="muted"> Chirigota del Molina</span>
-                    <span class="text"> Los Pimpinelas de la plaza Fragela </span>
-                </div>   
-                    <button>Ver horarios</button>
-                </div>  
-            </div>
-
+            </div> -->
         </div>
     </div>
 
@@ -92,7 +69,7 @@
         <div class="wrapper">
             <div class="title">
                 <span class="text">Los Pimpinelas de la plaza Fragela</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                <svg id="close-modal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
                     <path d="M18 6l-12 12"></path>
                     <path d="M6 6l12 12"></path>
                   </svg>

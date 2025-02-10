@@ -264,11 +264,14 @@ body > .title {
     transform: translateY(-50%);
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     background-color: rgba(0,0,0,0.5);
+    &.show {
+        display: flex;
+    }
     .wrapper {
         background-color: #fff;
         padding: 0 1rem 1rem;

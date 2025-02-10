@@ -1,12 +1,15 @@
 // App
 init();
 
-const boxTemplate = document.getElementById("box-template");
+const boxTemplate = document.getElementById("list-element-template");
 const list = document.querySelector(".list .wrapper");
+const modal = document.getElementById("modal");
 
 function init() {
     renderUpdate();
     renderList();
+
+    addModalEvents();
 }
 
 async function renderUpdate() {
@@ -28,14 +31,27 @@ async function renderList() {
     data.agrupaciones.forEach((agrupacion) => {
         const boxElement = boxTemplate.content.cloneNode(true);
         
-        const span1 = boxElement.querySelector(".span-1");
-        const span2 = boxElement.querySelector(".span-2");
-        const span3 = boxElement.querySelector(".span-3");
+        const image = boxElement.querySelector("img");
+        const apodo = boxElement.querySelector(".apodo");
+        const nombre = boxElement.querySelector(".nombre");
+        const button = boxElement.querySelector("button");
         
-        span1.textContent = agrupacion.nombre;
-        span2.textContent = agrupacion.apodo;
-        span3.textContent = agrupacion.posicion;
-        
-        list.appendChild(boxElement)
+        image.src = agrupacion.imagen;
+        nombre.textContent = agrupacion.nombre;
+        apodo.textContent = agrupacion.apodo;
+        button.textContent = "Ver horarios";
+        button.addEventListener("click", () => {
+            modal.classList.add("show");
+        })
+
+        list.appendChild(boxElement);
     })
 }
+
+async function addModalEvents() {
+    const closeModalElement = document.getElementById("close-modal");
+    closeModalElement.addEventListener("click", () => {
+        modal.classList.remove("show");
+    })
+}
+
