@@ -10,18 +10,33 @@ let map;
 // Initialize
 init();
 
-function init() {
-    renderMap();
+async function init() {
+    await handleParams();
     resizeMap();
     renderMarkers();
 }
 
-function renderMap() {
+async function handleParams() {
+    const params = new URLSearchParams(window.location.search);
+    const calle = params.get('calle');
+    const data = await fetch("./data.json").then(res => res.json()).then(data => data);
+    const lugar = data.lugares.find((lugar) => lugar.nombre === calle);
+
+    if (calle) {
+        renderMap([lugar.lng, lugar.lat], 15);
+    } else {
+        renderMap([-6.2809909, 36.5113303], 12.75);
+    }
+
+    openPanel(data.agrupaciones, lugar);
+}
+
+function renderMap(coords, zoom) {
     map = new maplibregl.Map({
         container: 'map',
         style: 'https://tiles.openfreemap.org/styles/liberty',
-        center: [-6.2809909, 36.5113303],
-        zoom: 12.75
+        center: coords,
+        zoom: zoom
     });
 
     const mapCanvasElement = mapElement.querySelector(".maplibregl-canvas");
@@ -77,7 +92,6 @@ function getAgrupacionesFromLatLng(agrupaciones, lng, lat) {
 function openPanel(agrupaciones, lugar) {
     panelElement.classList.add("show");
     const result = getAgrupacionesFromLatLng(agrupaciones, lugar.lng, lugar.lat);
-    console.log(result);
     renderPanelInfo(result, lugar.nombre);
 }
 
