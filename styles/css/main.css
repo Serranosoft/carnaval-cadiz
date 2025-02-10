@@ -39,21 +39,21 @@ button svg,
   height: 1.35rem;
 }
 
-.title {
+body > .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
 }
-.title .updated {
+body > .title .updated {
   display: flex;
   align-items: center;
   gap: 0.25rem;
   color: #5c5c5c;
   font-size: 0.85rem;
 }
-.title .updated svg {
+body > .title .updated svg {
   width: 1.07rem;
   height: 1.07rem;
 }
@@ -227,4 +227,59 @@ button svg,
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+}
+
+#modal {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal .wrapper {
+  background-color: #fff;
+  padding: 0 1rem 1rem;
+  border-radius: 1rem;
+  width: 85%;
+  height: -moz-min-content;
+  height: min-content;
+  max-height: 350px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+#modal .wrapper .title {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 1rem 0;
+}
+#modal .wrapper .title svg {
+  cursor: pointer;
+}
+#modal .wrapper .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+#modal .wrapper .content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+#modal .wrapper .content .item .row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
