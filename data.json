@@ -4,7 +4,7 @@
             "nombre": "El corazón de Cádiz",
             "apodo": "Comparsa Hermanos Pastrana",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/el-corazon-de-cadiz.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -75,7 +75,7 @@
             "nombre": "Cariño ¡Que pelusilla me tienes!",
             "apodo": "Chirigota de Sevilla",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/carino-que-pelusilla-me-tienes.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -146,7 +146,7 @@
             "nombre": "Cuando tú vas yo vengo",
             "apodo": "Chirigota de Iván Romero",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/cuanto-tu-vas-yo-vengo.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -217,7 +217,7 @@
             "nombre": "Los calaíta",
             "apodo": "Chirigota del Pelu",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-calaita.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -288,7 +288,7 @@
             "nombre": "Los muchachos del congelao",
             "apodo": "Chirigota El Canijo",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-muchachos-del-congelao.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -359,7 +359,7 @@
             "nombre": "Los pimpinelas de la plaza Fragela",
             "apodo": "Chirigota del Molina",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-pimpinela-de-la-plaza-fragela.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -430,7 +430,7 @@
             "nombre": "La resistencia",
             "apodo": "Comparsa Carapapa",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/la-resistencia.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -501,7 +501,7 @@
             "nombre": "Los auténticos pitorrisas",
             "apodo": "Chirigota Hermanos Alvarado",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-autenticos-pitorrisas.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -572,7 +572,7 @@
             "nombre": "La tribu",
             "apodo": "Comparsa del Chapa",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/la-tribu.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -643,7 +643,7 @@
             "nombre": "Por si acaso Las precavidas",
             "apodo": "Chirigota de Antoñito",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/por-si-acaso-las-precavidas.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -714,7 +714,7 @@
             "nombre": "Que sea lo que dios quiera",
             "apodo": "Chirigota de Rota",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/que-sea-lo-que-dios-quiera.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -785,7 +785,7 @@
             "nombre": "Las ratas",
             "apodo": "Comparsa Jesús Bienvenido",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/las-ratas.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -856,7 +856,7 @@
             "nombre": "¡Payaso!",
             "apodo": "Comparsa Zampi y Nene Cheza",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/payaso.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -927,7 +927,7 @@
             "nombre": "Los hermanos del buen fin",
             "apodo": "Chirigota del Bizcocho",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-hermanos-del-buen-fin.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -998,7 +998,7 @@
             "nombre": "Los butaneros chirigota de CAI/CDC",
             "apodo": "Chirigota Kike Remolino",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-butaneros.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1069,7 +1069,7 @@
             "nombre": "El cementerio",
             "apodo": "Comparsa del Jona",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/el-cementerio.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1140,7 +1140,7 @@
             "nombre": "Apartamentos turísticos Juani Wainjaus",
             "apodo": "Chirigota del Selu",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/apartamentos-turisticos-juani-wuainjaus.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1211,7 +1211,7 @@
             "nombre": "Los poderosos",
             "apodo": "Comparsa Manuel Cornejo",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-poderosos.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1282,7 +1282,7 @@
             "nombre": "Los cagones",
             "apodo": "Chirigota Santander",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-cagones.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1353,7 +1353,7 @@
             "nombre": "Una chirigota con Shoniket3",
             "apodo": "Chirigota de los Pibes",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/una-chirigota-con-shoniket3.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1424,7 +1424,7 @@
             "nombre": "Los del otro barrio",
             "apodo": "Comparsa de la Cantera",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-del-otro-barrio.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1495,7 +1495,7 @@
             "nombre": "Al cielo con él",
             "apodo": "Chirigota de Écija",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/al-cielo-con-el.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1566,7 +1566,7 @@
             "nombre": "Los James Bond que da gloria verlos",
             "apodo": "Chirigota del Yuyu",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-james-bond-que-da-gloria-verlos.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1637,7 +1637,7 @@
             "nombre": "Los disléxicos",
             "apodo": "Chirigota de los Villegas",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/los-dislexicos.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1708,7 +1708,7 @@
             "nombre": "Vuelvo de gira con Bob Dylan",
             "apodo": "Chirigota del Cascana",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/vuelvo-de-gira-con-bob-dylan.jpg.webp",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
@@ -1776,7 +1776,7 @@
             ]
         },
         {
-            "nombre": "DESOBDC",
+            "nombre": "desOBDC",
             "apodo": "Comparsa de Germán Rendón",
             "posicion": "Posición 1",
             "imagen": "/src/tmp.jpg",
