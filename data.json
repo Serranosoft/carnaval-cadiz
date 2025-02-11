@@ -1,8 +1,1783 @@
 {
     "agrupaciones": [
         {
-            "nombre": "Los Pimpinelas de la Plaza Fragela",
+            "nombre": "El corazón de Cádiz",
+            "apodo": "Comparsa Hermanos Pastrana",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Cariño ¡Que pelusilla me tienes!",
+            "apodo": "Chirigota de Sevilla",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Cuando tú vas yo vengo",
+            "apodo": "Chirigota de Iván Romero",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los calaíta",
+            "apodo": "Chirigota del Pelu",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los muchachos del congelao",
+            "apodo": "Chirigota El Canijo",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los pimpinelas de la plaza Fragela",
             "apodo": "Chirigota del Molina",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "La resistencia",
+            "apodo": "Comparsa Carapapa",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los auténticos pitorrisas",
+            "apodo": "Chirigota Hermanos Alvarado",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "La tribu",
+            "apodo": "Comparsa del Chapa",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Por si acaso Las precavidas",
+            "apodo": "Chirigota de Antoñito",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Que sea lo que dios quiera",
+            "apodo": "Chirigota de Rota",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Las ratas",
+            "apodo": "Comparsa Jesús Bienvenido",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "¡Payaso!",
+            "apodo": "Comparsa Zampi y Nene Cheza",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los hermanos del buen fin",
+            "apodo": "Chirigota del Bizcocho",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los butaneros chirigota de CAI/CDC",
+            "apodo": "Chirigota Kike Remolino",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "El cementerio",
+            "apodo": "Comparsa del Jona",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Apartamentos turísticos Juani Wainjaus",
+            "apodo": "Chirigota del Selu",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los poderosos",
+            "apodo": "Comparsa Manuel Cornejo",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los cagones",
+            "apodo": "Chirigota Santander",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Una chirigota con Shoniket3",
+            "apodo": "Chirigota de los Pibes",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los del otro barrio",
+            "apodo": "Comparsa de la Cantera",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Al cielo con él",
+            "apodo": "Chirigota de Écija",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los James Bond que da gloria verlos",
+            "apodo": "Chirigota del Yuyu",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los disléxicos",
+            "apodo": "Chirigota de los Villegas",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Vuelvo de gira con Bob Dylan",
+            "apodo": "Chirigota del Cascana",
+            "posicion": "Posición 1",
+            "imagen": "/src/tmp.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "DESOBDC",
+            "apodo": "Comparsa de Germán Rendón",
             "posicion": "Posición 1",
             "imagen": "/src/tmp.jpg",
             "actuaciones": [
