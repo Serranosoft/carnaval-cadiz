@@ -12,7 +12,7 @@ body {
 }
 
 .text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: -1.25px;
   line-height: 1.05;
@@ -37,6 +37,14 @@ button svg,
 .button svg {
   width: 1.35rem;
   height: 1.35rem;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 body > .title {
@@ -102,15 +110,7 @@ body > .title .updated svg {
 .list .wrapper .box .info .content {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-}
-
-.floating-button {
-  position: fixed;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  gap: 0.6rem;
 }
 
 #map {
