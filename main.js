@@ -50,18 +50,14 @@ async function renderList() {
 
 
 async function fillModal(agrupacion) {
-    console.log(agrupacion);
-    // Traer los datos del pulsado
-
     const modalContent = document.querySelector("#modal .content");
     const modalTitle = document.querySelector(".modal-title");
     modalTitle.textContent = agrupacion.nombre;
-
     
     agrupacion.actuaciones.forEach((actuacion) => {
         const modalItemRef = modalItemTemplate.content.cloneNode(true);
         const modalItem = modalItemRef.querySelector(".item");
-        console.log(modalItem);
+
         const date = modalItem.querySelector(".modal-item-date");
         date.textContent = actuacion.fecha;
 
@@ -87,7 +83,6 @@ async function fillModal(agrupacion) {
         modalItem.appendChild(modalInfo);
         modalContent.appendChild(modalItem);
     })
-    
     
     modal.classList.add("show");
 }
