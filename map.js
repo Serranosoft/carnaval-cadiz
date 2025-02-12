@@ -22,7 +22,7 @@ async function handleParams() {
     const data = await fetch("./data.json").then(res => res.json()).then(data => data);
     const lugar = data.lugares.find((lugar) => lugar.nombre === calle);
 
-    if (calle) {
+    if (calle && lugar) {
         renderMap([lugar.lng, lugar.lat], 15);
         openPanel(data.agrupaciones, lugar);
     } else {
