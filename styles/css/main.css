@@ -265,7 +265,9 @@ body > .title .updated svg {
   gap: 0.5rem;
 }
 #modal .wrapper > .title {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -304,6 +306,9 @@ body > .title .updated svg {
   align-items: center;
   gap: 0.5rem;
 }
+#modal .wrapper .content .item .title .modal-item-date {
+  font-weight: 500;
+}
 #modal .wrapper .content .item .info {
   display: flex;
   flex-direction: column;
@@ -322,7 +327,7 @@ body > .title .updated svg {
   display: flex;
   flex-direction: column;
 }
-#modal .wrapper .content .item .info .row .column .date {
+#modal .wrapper .content .item .info .row .column .modal-item-hour {
   font-size: 0.85rem;
   font-weight: 600;
 }

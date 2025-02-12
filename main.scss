@@ -300,7 +300,9 @@ body>.title {
         gap: 0.5rem;
 
         & > .title {
+            width: 100%;
             display: flex;
+            justify-content: space-between;
             position: sticky;
             top: 0;
             background-color: #fff;
@@ -341,8 +343,8 @@ body>.title {
                     display: flex;
                     align-items: center;
                     gap: 0.5rem;
-                    svg {
-
+                    .modal-item-date {
+                        font-weight: 500;
                     }
                 }
 
@@ -361,7 +363,7 @@ body>.title {
                         .column {
                             display: flex;
                             flex-direction: column;
-                            .date {
+                            .modal-item-hour {
                                 font-size: 0.85rem;
                                 font-weight: 600;
                             }
