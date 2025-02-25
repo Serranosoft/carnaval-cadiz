@@ -56,7 +56,10 @@ async function renderMarkers() {
     data.lugares.forEach((lugar) => {
         const el = document.createElement('div');
         el.className = 'marker';
-        el.style.backgroundImage = `url(https://picsum.photos/60/60/)`;
+        el.style.backgroundImage = `url(/src/marker.jpg)`;
+        el.style.backgroundSize = "contain";
+        el.style.backgroundRepeat = "no-repeat";
+
         el.addEventListener("click", () => openPanel(data.agrupaciones, lugar));
 
         new maplibregl.Marker({ element: el }).setLngLat([lugar.lng, lugar.lat]).addTo(map);

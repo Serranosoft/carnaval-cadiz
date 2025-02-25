@@ -53,11 +53,15 @@ button svg,
 }
 
 body > .title {
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
+  background-color: #fff;
+  z-index: 1;
 }
 body > .title .updated {
   display: flex;
@@ -122,8 +126,8 @@ body > .title .updated svg {
   position: relative;
 }
 #map .marker {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: block;
   padding: 0;
   border: none;
@@ -245,6 +249,7 @@ body > .title .updated svg {
   align-items: center;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 #modal.show {
   display: flex;
