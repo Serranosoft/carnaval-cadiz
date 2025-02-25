@@ -1779,7 +1779,220 @@
             "nombre": "desOBDC",
             "apodo": "Comparsa de Germán Rendón",
             "posicion": "Posición 1",
-            "imagen": "/src/tmp.jpg",
+            "imagen": "/src/DesOBDC.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los Sherijuego",
+            "apodo": "Chirigota del Sheriff",
+            "posicion": "Posición 1",
+            "imagen": "/src/los-sherijuegos.jpg.webp",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los Wonderful",
+            "apodo": "Comparsa de Fran Quintana",
+            "posicion": "Posición 1",
+            "imagen": "/src/los-wonderful.jpg.webp",
+            "actuaciones": [
+                {
+                    "fecha": "15/05/25",
+                    "metadata": [
+                        {
+                            "hora": "14:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "17:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "19:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "22:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "17/05/25",
+                    "metadata": [
+                        {
+                            "hora": "15:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "16:30",
+                            "lugar": "nombre de la calle 1",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Los del manteca",
+            "apodo": "Chirigota la Ilegalvez",
+            "posicion": "Callejera",
+            "imagen": "/src/la-ilegalvez.jpg",
             "actuaciones": [
                 {
                     "fecha": "15/05/25",
