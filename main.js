@@ -32,12 +32,12 @@ async function renderList() {
     const data = await fetch("./data.json").then(res => res.json()).then(data => data);
     data.agrupaciones.forEach((agrupacion) => {
         const boxElement = boxTemplate.content.cloneNode(true);
-        
+
         const image = boxElement.querySelector("img");
         const apodo = boxElement.querySelector(".apodo");
         const nombre = boxElement.querySelector(".nombre");
         const button = boxElement.querySelector("button");
-        
+
         image.src = agrupacion.imagen;
         nombre.textContent = agrupacion.nombre;
         apodo.textContent = agrupacion.apodo;
@@ -53,37 +53,42 @@ async function fillModal(agrupacion) {
     const modalContent = document.querySelector("#modal .content");
     const modalTitle = document.querySelector(".modal-title");
     modalTitle.textContent = agrupacion.nombre;
-    
-    agrupacion.actuaciones.forEach((actuacion) => {
-        const modalItemRef = modalItemTemplate.content.cloneNode(true);
-        const modalItem = modalItemRef.querySelector(".item");
 
-        const date = modalItem.querySelector(".modal-item-date");
-        date.textContent = actuacion.fecha;
+    if (agrupacion.actuaciones.length > 0) {
+        agrupacion.actuaciones.forEach((actuacion) => {
+            const modalItemRef = modalItemTemplate.content.cloneNode(true);
+            const modalItem = modalItemRef.querySelector(".item");
 
-        const modalInfo = modalItemRef.querySelector(".info");
+            const date = modalItem.querySelector(".modal-item-date");
+            date.textContent = actuacion.fecha;
 
-        actuacion.metadata.forEach((metadata) => {
-            const modalItemRowRef = modalItemRowTemplate.content.cloneNode(true);
-            const modalItemRow = modalItemRowRef.querySelector(".row");
+            const modalInfo = modalItemRef.querySelector(".info");
 
-            const modalItemHour = modalItemRow.querySelector(".modal-item-hour");
-            modalItemHour.textContent = metadata.hora;
+            actuacion.metadata.forEach((metadata) => {
+                const modalItemRowRef = modalItemRowTemplate.content.cloneNode(true);
+                const modalItemRow = modalItemRowRef.querySelector(".row");
 
-            const modalItemStreet = modalItemRow.querySelector(".modal-item-street");
-            modalItemStreet.textContent = metadata.lugar;
-            
-            const modalItemButton = modalItemRow.querySelector(".button");
-            modalItemButton.href = `/map.html?calle=${metadata.lugar.split(" ").join("+")}`;
+                const modalItemHour = modalItemRow.querySelector(".modal-item-hour");
+                modalItemHour.textContent = metadata.hora;
 
+                const modalItemStreet = modalItemRow.querySelector(".modal-item-street");
+                modalItemStreet.textContent = metadata.lugar;
 
-            modalInfo.appendChild(modalItemRow);
+                const modalItemButton = modalItemRow.querySelector(".button");
+                modalItemButton.href = `/map.html?calle=${metadata.lugar.split(" ").join("+")}`;
+
+                modalInfo.appendChild(modalItemRow);
+            })
+
+            modalItem.appendChild(modalInfo);
+            modalContent.appendChild(modalItem);
         })
+    } else {
+        const emptyMessageEl = document.querySelector("#modal .empty");
+        emptyMessageEl.textContent = `${agrupacion.nombre} no han publicado horarios`;
+        modalContent.appendChild(emptyMessageEl);
+    }
 
-        modalItem.appendChild(modalInfo);
-        modalContent.appendChild(modalItem);
-    })
-    
     modal.classList.add("show");
 }
 
