@@ -158,7 +158,7 @@ function renderPanelInfo(agrupaciones, lugar) {
         })
 
         panelAgrupacionElement.appendChild(actuaciones);
-        panelContentElement.appendChild(panelAgrupacionElement)
+        panelContentElement.appendChild(panelAgrupacionElement);
     })
 
 
