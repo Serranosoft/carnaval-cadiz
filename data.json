@@ -26,7 +26,7 @@
         },
         {
             "nombre": "Cuando tú vas yo vengo",
-            "apodo": "Chirigota de Iván Romero",
+            "apodo": "Chirigota de Iván Romero y Carlos",
             "posicion": "",
             "imagen": "/src/cuanto-tu-vas-yo-vengo.jpg",
             "actuaciones": [{
@@ -34,6 +34,23 @@
                 "metadata": [
                     {
                         "hora": "20:00h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    },
+                    {
+                        "hora": "23:00h",
+                        "lugar": "Plaza San Agustín",
+                        "lat": 36.532392,
+                        "lng": -6.293929
+                    }
+                ]
+            },
+            {
+                "fecha": "06/03/2025",
+                "metadata": [
+                    {
+                        "hora": "01:00h",
                         "lugar": "Barrio de la Viña",
                         "lat": 36.529741,
                         "lng": -6.303338
@@ -47,12 +64,18 @@
             "posicion": "",
             "imagen": "/src/los-calaita.jpg.webp",
             "actuaciones": [{
-                "fecha": "03/03/52025",
+                "fecha": "05/03/2025",
                 "metadata": [{
                     "hora": "21:30h",
                     "lugar": "Plaza San Francisco",
                     "lat": 36.534435,
                     "lng": -6.296082
+                },
+                {
+                    "hora": "22:30h",
+                    "lugar": "Peña Paco Alba",
+                    "lat": 36.527087,
+                    "lng": -6.287937
                 }
                 ]
             }]
@@ -62,7 +85,23 @@
             "apodo": "Chirigota El Canijo",
             "posicion": "",
             "imagen": "/src/los-muchachos-del-congelao.jpg",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "21:30h",
+                        "lugar": "El Mentidero",
+                        "lat": 36.535706,
+                        "lng": -6.301056
+                    },
+                    {
+                        "hora": "23:00h",
+                        "lugar": "Santa Cruz",
+                        "lat": 36.528575,
+                        "lng": -6.294317
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Los pimpinelas de la plaza Fragela",
@@ -104,7 +143,25 @@
             "apodo": "Chirigota de Rota",
             "posicion": "",
             "imagen": "/src/que-sea-lo-que-dios-quiera.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:00h",
+                        "lugar": "Plaza San Agustín",
+                        "lat": 36.532392,
+                        "lng": -6.293929
+                    },
+                    {
+                        "hora": "21:30h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    }
+                ]
+            }
+
+            ]
         },
         {
             "nombre": "Las ratas",
@@ -140,7 +197,7 @@
             "posicion": "",
             "imagen": "/src/el-cementerio.jpg",
             "actuaciones": [{
-                "fecha": "03/03/52025",
+                "fecha": "05/03/2025",
                 "metadata": [{
                     "hora": "21:00h",
                     "lugar": "Plaza San Francisco",
@@ -152,7 +209,12 @@
                     "lugar": "El Mentidero",
                     "lat": 36.535706,
                     "lng": -6.301056
-                },
+                }
+                ]
+            },
+            {
+                "fecha": "06/03/2025",
+                "metadata": [
                 {
                     "hora": "00:30h",
                     "lugar": "Barrio de la Viña",
@@ -166,7 +228,8 @@
                     "lng": -6.293929
                 }
                 ]
-            }]
+            }    
+        ]
         },
         {
             "nombre": "Apartamentos turísticos Juani Wainjaus",
@@ -188,6 +251,12 @@
                         "lugar": "Barrio de la Viña",
                         "lat": 36.529741,
                         "lng": -6.303338
+                    },
+                    {
+                        "hora": "22:00h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
                     }
                 ]
             }]
@@ -198,12 +267,18 @@
             "posicion": "",
             "imagen": "/src/los-cagones.jpg",
             "actuaciones": [{
-                "fecha": "03/03/52025",
+                "fecha": "05/03/2025",
                 "metadata": [{
                     "hora": "19:30h",
                     "lugar": "Plaza de Candelaria",
                     "lat": 36.531192,
                     "lng": -6.295196
+                },
+                {
+                    "hora": "21:30h",
+                    "lugar": "Barrio de la Viña",
+                    "lat": 36.529741,
+                    "lng": -6.303338
                 }
                 ]
             }]
@@ -213,14 +288,46 @@
             "apodo": "Chirigota de los Pibes",
             "posicion": "",
             "imagen": "/src/una-chirigota-con-shoniket3.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "22:00h",
+                        "lugar": "Plaza San Agustín",
+                        "lat": 36.532392,
+                        "lng": -6.293929
+                    },
+                    {
+                        "hora": "23:00h",
+                        "lugar": "Santa Cruz",
+                        "lat": 36.528575,
+                        "lng": -6.294317
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Los del otro barrio",
             "apodo": "Comparsa de la Cantera",
             "posicion": "",
             "imagen": "/src/los-del-otro-barrio.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "21:00h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    },
+                    {
+                        "hora": "23:00h",
+                        "lugar": "Santa Cruz",
+                        "lat": 36.528575,
+                        "lng": -6.294317
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Al cielo con él",
@@ -272,7 +379,23 @@
             "apodo": "Chirigota del Sheriff",
             "posicion": "",
             "imagen": "/src/los-sherijuegos.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "21:00h",
+                        "lugar": "Plaza San Agustín",
+                        "lat": 36.532392,
+                        "lng": -6.293929
+                    },
+                    {
+                        "hora": "22:30h",
+                        "lugar": "Torre Tavira",
+                        "lat": 36.532045,
+                        "lng": -6.298424
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Los Wonderful",
@@ -348,6 +471,22 @@
             "nombre": "Plaza San Agustín",
             "lat": 36.532392,
             "lng": -6.293929
+        },
+        {
+            "nombre": "Torre Tavira",
+            "lat": 36.532045,
+            "lng": -6.298424
+        },
+        {
+            "nombre": "Santa Cruz",
+            "lat": 36.528575,
+            "lng": -6.294317
+        },
+        {
+            "nombre": "Peña Paco Alba",
+            "lat": 36.527087,
+            "lng": -6.287937
         }
+        
     ]
 }
