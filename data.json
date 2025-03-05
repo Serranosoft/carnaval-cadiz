@@ -6,51 +6,16 @@
             "posicion": "",
             "imagen": "/src/el-corazon-de-cadiz.jpg.webp",
             "actuaciones": [{
-                    "fecha": "03/03/52025",
-                    "metadata": [
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        },
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        }
-                    ]
-                },
-                {
-                    "fecha": "",
-                    "metadata": [
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        },
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        },
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        },
-                        {
-                            "hora": "",
-                            "lugar": "",
-                            "lat": 36.5158003,
-                            "lng": -6.2809909
-                        }
-                    ]
-                }]
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "19:30h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Cariño ¡Que pelusilla me tienes!",
@@ -64,7 +29,17 @@
             "apodo": "Chirigota de Iván Romero",
             "posicion": "",
             "imagen": "/src/cuanto-tu-vas-yo-vengo.jpg",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:00h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Los calaíta",
@@ -72,10 +47,14 @@
             "posicion": "",
             "imagen": "/src/los-calaita.jpg.webp",
             "actuaciones": [{
-                "hora": "21:30h",
-                "lugar": "Plaza San Francisco",
-                "lat": 36.534435,
-                "lng": -6.296082
+                "fecha": "03/03/52025",
+                "metadata": [{
+                    "hora": "21:30h",
+                    "lugar": "Plaza San Francisco",
+                    "lat": 36.534435,
+                    "lng": -6.296082
+                }
+                ]
             }]
         },
         {
@@ -167,6 +146,24 @@
                     "lugar": "Plaza San Francisco",
                     "lat": 36.534435,
                     "lng": -6.296082
+                },
+                {
+                    "hora": "23:00h",
+                    "lugar": "El Mentidero",
+                    "lat": 36.535706,
+                    "lng": -6.301056
+                },
+                {
+                    "hora": "00:30h",
+                    "lugar": "Barrio de la Viña",
+                    "lat": 36.529741,
+                    "lng": -6.303338
+                },
+                {
+                    "hora": "01:30h",
+                    "lugar": "Plaza San Agustín",
+                    "lat": 36.532392,
+                    "lng": -6.293929
                 }
                 ]
             }]
@@ -183,7 +180,17 @@
             "apodo": "Comparsa Manuel Cornejo",
             "posicion": "",
             "imagen": "/src/los-poderosos.jpg",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:30h",
+                        "lugar": "Barrio de la Viña",
+                        "lat": 36.529741,
+                        "lng": -6.303338
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Los cagones",
@@ -191,10 +198,14 @@
             "posicion": "",
             "imagen": "/src/los-cagones.jpg",
             "actuaciones": [{
-                "hora": "19:30h",
-                "lugar": "Plaza de Candelaria",
-                "lat": 36.531192,
-                "lng": -6.295196
+                "fecha": "03/03/52025",
+                "metadata": [{
+                    "hora": "19:30h",
+                    "lugar": "Plaza de Candelaria",
+                    "lat": 36.531192,
+                    "lng": -6.295196
+                }
+                ]
             }]
         },
         {
@@ -280,16 +291,36 @@
         {
             "nombre": "La Chulita",
             "apodo": "Comparsa de Tamara Beardo",
-            "posicion": "Semifinales",
-            "imagen": "/src/la-ilegalvez.jpg",
-            "actuaciones": []
+            "posicion": "",
+            "imagen": "/src/la-chulita.jpg.webp",
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:00h",
+                        "lugar": "Plaza de Candelaria",
+                        "lat": 36.531192,
+                        "lng": -6.295196
+                    }
+                ]
+            }]
         },
         {
-            "nombre": "Los del manteca",
-            "apodo": "Chirigota la Ilegalvez",
-            "posicion": "Callejera",
-            "imagen": "/src/la-ilegalvez.jpg",
-            "actuaciones": []
+            "nombre": "Ku Klux Klan Klan",
+            "apodo": "Cuarteto del Gago",
+            "posicion": "1 Premio",
+            "imagen": "/src/ku-kux-klan-klan.jpg",
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:30h",
+                        "lugar": "Plaza de Candelaria",
+                        "lat": 36.531192,
+                        "lng": -6.295196
+                    }
+                ]
+            }]
         }
     ],
     "lugares": [
@@ -299,14 +330,24 @@
             "lng": -6.296082
         },
         {
-            "nombre": "Calle de la YYY",
-            "lat": 37.5158003,
-            "lng": -6.2809909
+            "nombre": "Plaza de Candelaria",
+            "lat": 36.531192,
+            "lng": -6.295196
         },
         {
-            "nombre": "Calle de la ZZZ",
-            "lat": 38.5158003,
-            "lng": -6.2809909
+            "nombre": "Barrio de la Viña",
+            "lat": 36.529741,
+            "lng": -6.303338
+        },
+        {
+            "nombre": "El Mentidero",
+            "lat": 36.535706,
+            "lng": -6.301056
+        },
+        {
+            "nombre": "Plaza San Agustín",
+            "lat": 36.532392,
+            "lng": -6.293929
         }
     ]
 }
