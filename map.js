@@ -26,7 +26,7 @@ async function handleParams() {
         renderMap([lugar.lng, lugar.lat], 15);
         openPanel(data.agrupaciones, lugar);
     } else {
-        renderMap([-6.2809909, 36.5113303], 12.75);
+        renderMap([-6.298469, 36.531949], 13.60);
     }
 
 }
