@@ -60,7 +60,10 @@ async function renderMarkers() {
         el.style.backgroundSize = "contain";
         el.style.backgroundRepeat = "no-repeat";
 
-        el.addEventListener("click", () => openPanel(data.agrupaciones, lugar));
+        el.addEventListener("click", () => {
+            closePanel();
+            openPanel(data.agrupaciones, lugar)
+        });
 
         new maplibregl.Marker({ element: el }).setLngLat([lugar.lng, lugar.lat]).addTo(map);
     })
@@ -68,34 +71,45 @@ async function renderMarkers() {
 
 function getAgrupacionesFromLatLng(agrupaciones, lng, lat) {
     return agrupaciones
-    .map(agrupacion => {
-      // Filtramos las actuaciones que tienen al menos un metadata con la latitud y longitud dadas
-      const actuacionesFiltradas = agrupacion.actuaciones
-        .map(actuacion => {
-          // Filtramos solo los metadata que coinciden con lat y lng
-          const metadataFiltrada = actuacion.metadata.filter(meta => 
-            meta.lat === lat && meta.lng === lng
-          );
+        .map(agrupacion => {
+            // Filtramos las actuaciones que tienen al menos un metadata con la latitud y longitud dadas
+            const actuacionesFiltradas = agrupacion.actuaciones
+                .map(actuacion => {
+                    // Filtramos solo los metadata que coinciden con lat y lng
+                    const metadataFiltrada = actuacion.metadata.filter(meta =>
+                        meta.lat === lat && meta.lng === lng
+                    );
 
-          // Si hay metadata coincidentes, devolvemos la actuación con solo esos metadata
-          return metadataFiltrada.length > 0 
-            ? { ...actuacion, metadata: metadataFiltrada } 
-            : null;
+                    // Si hay metadata coincidentes, devolvemos la actuación con solo esos metadata
+                    return metadataFiltrada.length > 0
+                        ? { ...actuacion, metadata: metadataFiltrada }
+                        : null;
+                })
+                .filter(actuacion => actuacion !== null); // Eliminamos actuaciones vacías
+
+            // Si hay actuaciones válidas, devolvemos la agrupación con solo esas actuaciones
+            return actuacionesFiltradas.length > 0
+                ? { ...agrupacion, actuaciones: actuacionesFiltradas }
+                : null;
         })
-        .filter(actuacion => actuacion !== null); // Eliminamos actuaciones vacías
-
-      // Si hay actuaciones válidas, devolvemos la agrupación con solo esas actuaciones
-      return actuacionesFiltradas.length > 0 
-        ? { ...agrupacion, actuaciones: actuacionesFiltradas } 
-        : null;
-    })
-    .filter(agrupacion => agrupacion !== null); // Eliminamos agrupaciones vacías
+        .filter(agrupacion => agrupacion !== null); // Eliminamos agrupaciones vacías
 }
 
 function openPanel(agrupaciones, lugar) {
     panelElement.classList.add("show");
     const result = getAgrupacionesFromLatLng(agrupaciones, lugar.lng, lugar.lat);
-    renderPanelInfo(result, lugar.nombre);
+    // Ordenar para que salgan las agrupaciones con horarios mas temprano y además sus actuaciones ordenadas de mas tempranas a mas tardías.
+    const sorted = result
+        .map(agrupacion => ({
+            ...agrupacion,
+            actuaciones: agrupacion.actuaciones.sort((a, b) =>
+                a.metadata[0].hora.localeCompare(b.metadata[0].hora)
+            )
+        }))
+        .sort((a, b) =>
+            a.actuaciones[0].metadata[0].hora.localeCompare(b.actuaciones[0].metadata[0].hora)
+        );
+    renderPanelInfo(sorted, lugar.nombre);
 }
 
 function renderPanelInfo(agrupaciones, lugar) {
