@@ -5,7 +5,52 @@
             "apodo": "Comparsa Hermanos Pastrana",
             "posicion": "",
             "imagen": "/src/el-corazon-de-cadiz.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                    "fecha": "03/03/52025",
+                    "metadata": [
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                },
+                {
+                    "fecha": "",
+                    "metadata": [
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        },
+                        {
+                            "hora": "",
+                            "lugar": "",
+                            "lat": 36.5158003,
+                            "lng": -6.2809909
+                        }
+                    ]
+                }]
         },
         {
             "nombre": "Cariño ¡Que pelusilla me tienes!",
@@ -26,7 +71,12 @@
             "apodo": "Chirigota del Pelu",
             "posicion": "",
             "imagen": "/src/los-calaita.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "hora": "21:30h",
+                "lugar": "Plaza San Francisco",
+                "lat": 36.534435,
+                "lng": -6.296082
+            }]
         },
         {
             "nombre": "Los muchachos del congelao",
@@ -110,7 +160,16 @@
             "apodo": "Comparsa del Jona",
             "posicion": "",
             "imagen": "/src/el-cementerio.jpg",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "03/03/52025",
+                "metadata": [{
+                    "hora": "21:00h",
+                    "lugar": "Plaza San Francisco",
+                    "lat": 36.534435,
+                    "lng": -6.296082
+                }
+                ]
+            }]
         },
         {
             "nombre": "Apartamentos turísticos Juani Wainjaus",
@@ -131,7 +190,12 @@
             "apodo": "Chirigota Santander",
             "posicion": "",
             "imagen": "/src/los-cagones.jpg",
-            "actuaciones": []
+            "actuaciones": [{
+                "hora": "19:30h",
+                "lugar": "Plaza de Candelaria",
+                "lat": 36.531192,
+                "lng": -6.295196
+            }]
         },
         {
             "nombre": "Una chirigota con Shoniket3",
@@ -166,7 +230,17 @@
             "apodo": "Chirigota de los Villegas",
             "posicion": "",
             "imagen": "/src/los-dislexicos.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [{
+                "fecha": "05/03/2025",
+                "metadata": [
+                    {
+                        "hora": "20:30h",
+                        "lugar": "Plaza San Francisco",
+                        "lat": 36.534435,
+                        "lng": -6.296082
+                    }
+                ]
+            }]
         },
         {
             "nombre": "Vuelvo de gira con Bob Dylan",
@@ -202,13 +276,27 @@
             "posicion": "Callejera",
             "imagen": "/src/la-ilegalvez.jpg",
             "actuaciones": []
+        },
+        {
+            "nombre": "La Chulita",
+            "apodo": "Comparsa de Tamara Beardo",
+            "posicion": "Semifinales",
+            "imagen": "/src/la-ilegalvez.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los del manteca",
+            "apodo": "Chirigota la Ilegalvez",
+            "posicion": "Callejera",
+            "imagen": "/src/la-ilegalvez.jpg",
+            "actuaciones": []
         }
     ],
     "lugares": [
         {
-            "nombre": "Calle de la XXX",
-            "lat": 36.5158003,
-            "lng": -6.2809909
+            "nombre": "Plaza San Francisco",
+            "lat": 36.534435,
+            "lng": -6.296082
         },
         {
             "nombre": "Calle de la YYY",
