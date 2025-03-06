@@ -197,8 +197,8 @@ body > .title .updated svg {
   margin-bottom: 0.25rem;
 }
 #map .panel .wrapper .content .panel-agrupacion .row img {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 4.7rem;
+  height: 4.7rem;
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -227,7 +227,7 @@ body > .title .updated svg {
   letter-spacing: -0.25px;
 }
 #map .panel.show {
-  width: 75%;
+  width: 67%;
 }
 #map a {
   position: fixed;

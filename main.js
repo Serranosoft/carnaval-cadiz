@@ -54,15 +54,20 @@ async function fillModal(agrupacion) {
     const modalTitle = document.querySelector(".modal-title");
     modalTitle.textContent = agrupacion.nombre;
 
+    const modalItemRef = modalItemTemplate.content.cloneNode(true);
+    const modalItem = modalItemRef.querySelector(".item");
+    const emptyMessageEl = modalItem.querySelector(".empty");
+
     if (agrupacion.actuaciones.length > 0) {
+
+        emptyMessageEl.style.display = "none";
+
         agrupacion.actuaciones.forEach((actuacion) => {
-            const modalItemRef = modalItemTemplate.content.cloneNode(true);
-            const modalItem = modalItemRef.querySelector(".item");
 
             const date = modalItem.querySelector(".modal-item-date");
             date.textContent = actuacion.fecha;
 
-            const modalInfo = modalItemRef.querySelector(".info");
+            const modalInfo = modalItem.querySelector(".info");
 
             actuacion.metadata.forEach((metadata) => {
                 const modalItemRowRef = modalItemRowTemplate.content.cloneNode(true);
@@ -84,7 +89,6 @@ async function fillModal(agrupacion) {
             modalContent.appendChild(modalItem);
         })
     } else {
-        const emptyMessageEl = document.querySelector("#modal .empty");
         emptyMessageEl.textContent = `${agrupacion.nombre} no han publicado horarios`;
         modalContent.appendChild(emptyMessageEl);
     }
@@ -96,6 +100,8 @@ async function addModalEvents() {
     const closeModalElement = document.getElementById("close-modal");
     closeModalElement.addEventListener("click", () => {
         modal.classList.remove("show");
+        const modalContent = document.querySelector("#modal .content");
+        modalContent.innerHTML = "";
     })
 }
 
