@@ -5,17 +5,19 @@
             "apodo": "Comparsa Hermanos Pastrana",
             "posicion": "",
             "imagen": "/src/el-corazon-de-cadiz.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "19:30h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Cariño ¡Que pelusilla me tienes!",
@@ -29,79 +31,97 @@
             "apodo": "Chirigota de Iván Romero y Carlos",
             "posicion": "",
             "imagen": "/src/cuanto-tu-vas-yo-vengo.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:00h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    },
-                    {
-                        "hora": "23:00h",
-                        "lugar": "Plaza San Agustín",
-                        "lat": 36.532392,
-                        "lng": -6.293929
-                    }
-                ]
-            },
-            {
-                "fecha": "06/03/2025",
-                "metadata": [
-                    {
-                        "hora": "01:00h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "Plaza San Agustín",
+                            "lat": 36.532392,
+                            "lng": -6.293929
+                        }
+                    ]
+                },
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "01:00h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los calaíta",
             "apodo": "Chirigota del Pelu",
             "posicion": "",
             "imagen": "/src/los-calaita.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [{
-                    "hora": "21:30h",
-                    "lugar": "Plaza San Francisco",
-                    "lat": 36.534435,
-                    "lng": -6.296082
-                },
+            "actuaciones": [
                 {
-                    "hora": "22:30h",
-                    "lugar": "Peña Paco Alba",
-                    "lat": 36.527087,
-                    "lng": -6.287937
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:30h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        },
+                        {
+                            "hora": "22:30h",
+                            "lugar": "Peña Paco Alba",
+                            "lat": 36.527087,
+                            "lng": -6.287937
+                        }
+                    ]
                 }
-                ]
-            }]
+            ]
         },
         {
             "nombre": "Los muchachos del congelao",
             "apodo": "Chirigota El Canijo",
             "posicion": "",
             "imagen": "/src/los-muchachos-del-congelao.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "21:30h",
-                        "lugar": "El Mentidero",
-                        "lat": 36.535706,
-                        "lng": -6.301056
-                    },
-                    {
-                        "hora": "23:00h",
-                        "lugar": "Santa Cruz",
-                        "lat": 36.528575,
-                        "lng": -6.294317
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:30h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        }
+                    ]
+                },
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:30h",
+                            "lugar": "El Mentidero",
+                            "lat": 36.535706,
+                            "lng": -6.301056
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "Santa Cruz",
+                            "lat": 36.528575,
+                            "lng": -6.294317
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los pimpinelas de la plaza Fragela",
@@ -143,24 +163,24 @@
             "apodo": "Chirigota de Rota",
             "posicion": "",
             "imagen": "/src/que-sea-lo-que-dios-quiera.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:00h",
-                        "lugar": "Plaza San Agustín",
-                        "lat": 36.532392,
-                        "lng": -6.293929
-                    },
-                    {
-                        "hora": "21:30h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    }
-                ]
-            }
-
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Plaza San Agustín",
+                            "lat": 36.532392,
+                            "lng": -6.293929
+                        },
+                        {
+                            "hora": "21:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -168,14 +188,62 @@
             "apodo": "Comparsa Jesús Bienvenido",
             "posicion": "",
             "imagen": "/src/las-ratas.jpg",
-            "actuaciones": []
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "21:30h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        },
+                        {
+                            "hora": "22:30h",
+                            "lugar": "Puerto Real",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "¡Payaso!",
             "apodo": "Comparsa Zampi y Nene Cheza",
             "posicion": "",
             "imagen": "/src/payaso.jpg.webp",
-            "actuaciones": []
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        },
+                        {
+                            "hora": "20:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "22:00h",
+                            "lugar": "Bar Genoves",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los hermanos del buen fin",
@@ -196,40 +264,42 @@
             "apodo": "Comparsa del Jona",
             "posicion": "",
             "imagen": "/src/el-cementerio.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [{
-                    "hora": "21:00h",
-                    "lugar": "Plaza San Francisco",
-                    "lat": 36.534435,
-                    "lng": -6.296082
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:00h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "El Mentidero",
+                            "lat": 36.535706,
+                            "lng": -6.301056
+                        }
+                    ]
                 },
                 {
-                    "hora": "23:00h",
-                    "lugar": "El Mentidero",
-                    "lat": 36.535706,
-                    "lng": -6.301056
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "00:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "01:30h",
+                            "lugar": "Plaza San Agustín",
+                            "lat": 36.532392,
+                            "lng": -6.293929
+                        }
+                    ]
                 }
-                ]
-            },
-            {
-                "fecha": "06/03/2025",
-                "metadata": [
-                {
-                    "hora": "00:30h",
-                    "lugar": "Barrio de la Viña",
-                    "lat": 36.529741,
-                    "lng": -6.303338
-                },
-                {
-                    "hora": "01:30h",
-                    "lugar": "Plaza San Agustín",
-                    "lat": 36.532392,
-                    "lng": -6.293929
-                }
-                ]
-            }    
-        ]
+            ]
         },
         {
             "nombre": "Apartamentos turísticos Juani Wainjaus",
@@ -243,91 +313,111 @@
             "apodo": "Comparsa Manuel Cornejo",
             "posicion": "",
             "imagen": "/src/los-poderosos.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:30h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    },
-                    {
-                        "hora": "22:00h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:00h",
+                            "lugar": "Oratorio San Felipe",
+                            "lat": 36.53300,
+                            "lng": -6.29967
+                        }
+                    ]
+                },
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "22:00h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los cagones",
             "apodo": "Chirigota Santander",
             "posicion": "",
             "imagen": "/src/los-cagones.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [{
-                    "hora": "19:30h",
-                    "lugar": "Plaza de Candelaria",
-                    "lat": 36.531192,
-                    "lng": -6.295196
-                },
+            "actuaciones": [
                 {
-                    "hora": "21:30h",
-                    "lugar": "Barrio de la Viña",
-                    "lat": 36.529741,
-                    "lng": -6.303338
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        },
+                        {
+                            "hora": "21:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
                 }
-                ]
-            }]
+            ]
         },
         {
             "nombre": "Una chirigota con Shoniket3",
             "apodo": "Chirigota de los Pibes",
             "posicion": "",
             "imagen": "/src/una-chirigota-con-shoniket3.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "22:00h",
-                        "lugar": "Plaza San Agustín",
-                        "lat": 36.532392,
-                        "lng": -6.293929
-                    },
-                    {
-                        "hora": "23:00h",
-                        "lugar": "Santa Cruz",
-                        "lat": 36.528575,
-                        "lng": -6.294317
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "22:00h",
+                            "lugar": "Plaza San Agustín",
+                            "lat": 36.532392,
+                            "lng": -6.293929
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "Santa Cruz",
+                            "lat": 36.528575,
+                            "lng": -6.294317
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los del otro barrio",
             "apodo": "Comparsa de la Cantera",
             "posicion": "",
             "imagen": "/src/los-del-otro-barrio.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "21:00h",
-                        "lugar": "Barrio de la Viña",
-                        "lat": 36.529741,
-                        "lng": -6.303338
-                    },
-                    {
-                        "hora": "23:00h",
-                        "lugar": "Santa Cruz",
-                        "lat": 36.528575,
-                        "lng": -6.294317
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:00h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "Santa Cruz",
+                            "lat": 36.528575,
+                            "lng": -6.294317
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Al cielo con él",
@@ -348,17 +438,19 @@
             "apodo": "Chirigota de los Villegas",
             "posicion": "",
             "imagen": "/src/los-dislexicos.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:30h",
-                        "lugar": "Plaza San Francisco",
-                        "lat": 36.534435,
-                        "lng": -6.296082
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:30h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Vuelvo de gira con Bob Dylan",
@@ -372,30 +464,61 @@
             "apodo": "Comparsa de Germán Rendón",
             "posicion": "",
             "imagen": "/src/DesOBDC.jpg",
-            "actuaciones": []
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "22:30h",
+                            "lugar": "Plaza Pinto",
+                            "lat": 36.530532,
+                            "lng": -6.302109
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los Sherijuego",
             "apodo": "Chirigota del Sheriff",
             "posicion": "",
             "imagen": "/src/los-sherijuegos.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "21:00h",
-                        "lugar": "Plaza San Agustín",
-                        "lat": 36.532392,
-                        "lng": -6.293929
-                    },
-                    {
-                        "hora": "22:30h",
-                        "lugar": "Torre Tavira",
-                        "lat": 36.532045,
-                        "lng": -6.298424
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "06/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Museo de Cádiz",
+                            "lat": 36.53511,
+                            "lng": -6.29654
+                        }
+                    ]
+                },
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "21:00h",
+                            "lugar": "Plaza San Agustín",
+                            "lat": 36.532392,
+                            "lng": -6.293929
+                        },
+                        {
+                            "hora": "22:30h",
+                            "lugar": "Torre Tavira",
+                            "lat": 36.532045,
+                            "lng": -6.298424
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los Wonderful",
@@ -416,34 +539,38 @@
             "apodo": "Comparsa de Tamara Beardo",
             "posicion": "",
             "imagen": "/src/la-chulita.jpg.webp",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:00h",
-                        "lugar": "Plaza de Candelaria",
-                        "lat": 36.531192,
-                        "lng": -6.295196
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Ku Klux Klan Klan",
             "apodo": "Cuarteto del Gago",
             "posicion": "1 Premio",
             "imagen": "/src/ku-kux-klan-klan.jpg",
-            "actuaciones": [{
-                "fecha": "05/03/2025",
-                "metadata": [
-                    {
-                        "hora": "20:30h",
-                        "lugar": "Plaza de Candelaria",
-                        "lat": 36.531192,
-                        "lng": -6.295196
-                    }
-                ]
-            }]
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:30h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "lugares": [
@@ -486,7 +613,31 @@
             "nombre": "Peña Paco Alba",
             "lat": 36.527087,
             "lng": -6.287937
+        },
+        {
+            "nombre": "Puerto Real",
+            "lat": 36.526164,
+            "lng": -6.191856
+        },
+        {
+            "nombre": "Bar Genoves",
+            "lat": 36.534503,
+            "lng": -6.304939
+        },
+        {
+            "nombre": "Oratorio San Felipe",
+            "lat": 36.53300,
+            "lng": -6.29967
+        },
+        {
+            "nombre": "Plaza Pinto",
+            "lat": 36.530532,
+            "lng": -6.302109
+        },
+        {
+            "nombre": "Museo de Cádiz",
+            "lat": 36.53511,
+            "lng": -6.29654
         }
-        
     ]
 }
