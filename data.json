@@ -69,6 +69,23 @@
             "imagen": "/src/los-calaita.jpg.webp",
             "actuaciones": [
                 {
+                    "fecha": "09/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Puerto Real",
+                            "lat": 36.526164,
+                            "lng": -6.191856
+                        },
+                        {
+                            "hora": "22:30h",
+                            "lugar": "Catedral",
+                            "lat": 36.529413,
+                            "lng": -6.295142
+                        }
+                    ]
+                },
+                {
                     "fecha": "05/03/2025",
                     "metadata": [
                         {
@@ -283,19 +300,31 @@
                     ]
                 },
                 {
-                    "fecha": "06/03/2025",
+                    "fecha": "09/03/2025",
                     "metadata": [
                         {
-                            "hora": "00:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
+                            "hora": "17:00h",
+                            "lugar": "Escalerilla Facultad",
+                            "lat": 36.534380,
+                            "lng": -6.302379
                         },
                         {
-                            "hora": "01:30h",
-                            "lugar": "Plaza San Agustín",
-                            "lat": 36.532392,
-                            "lng": -6.293929
+                            "hora": "18:00h",
+                            "lugar": "El Mentidero",
+                            "lat": 36.535706,
+                            "lng": -6.301056
+                        },
+                        {
+                            "hora": "19:00h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        },
+                        {
+                            "hora": "20:00h",
+                            "lugar": "Plaza del Palillero",
+                            "lat": 36.531971,
+                            "lng": -6.296294
                         }
                     ]
                 }
@@ -314,6 +343,17 @@
             "posicion": "",
             "imagen": "/src/los-poderosos.jpg",
             "actuaciones": [
+                {
+                    "fecha": "09/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "14:00h",
+                            "lugar": "Escalerilla Facultad",
+                            "lat": 36.534380,
+                            "lng": -6.302379
+                        }
+                    ]
+                },
                 {
                     "fecha": "06/03/2025",
                     "metadata": [
@@ -350,6 +390,23 @@
             "posicion": "",
             "imagen": "/src/los-cagones.jpg",
             "actuaciones": [
+                {
+                    "fecha": "09/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "14:00h",
+                            "lugar": "Calle San Miguel",
+                            "lat": 36.532498,
+                            "lng": -6.297413
+                        },
+                        {
+                            "hora": "16:00h",
+                            "lugar": "Plaza de Candelaria",
+                            "lat": 36.531192,
+                            "lng": -6.295196
+                        }
+                    ]
+                },
                 {
                     "fecha": "05/03/2025",
                     "metadata": [
@@ -638,6 +695,21 @@
             "nombre": "Museo de Cádiz",
             "lat": 36.53511,
             "lng": -6.29654
+        },
+        {
+            "nombre": "Escalerillas Facultad",
+            "lat": 36.534380,
+            "lng": -6.302379
+        },
+        {
+            "nombre": "Plaza del Palillero",
+            "lat": 36.531971,
+            "lng": -6.296294
+        },
+        {
+            "nombre": "Calle San Miguel",
+            "lat": 36.532498,
+            "lng": -6.297413
         }
     ]
 }
