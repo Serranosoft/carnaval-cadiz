@@ -1,10 +1,10 @@
 {
     "agrupaciones": [
         {
-            "nombre": "El corazón de Cádiz",
+            "nombre": "El hombre de hojalata",
             "apodo": "Comparsa Hermanos Pastrana",
-            "posicion": "",
-            "imagen": "/src/el-corazon-de-cadiz.jpg.webp",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/el-hombre-de-hojalata.jpg",
             "actuaciones": [
                 {
                     "fecha": "05/03/2025",
@@ -20,614 +20,207 @@
             ]
         },
         {
-            "nombre": "Cariño ¡Que pelusilla me tienes!",
-            "apodo": "Chirigota de Sevilla",
-            "posicion": "",
-            "imagen": "/src/carino-que-pelusilla-me-tienes.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Cuando tú vas yo vengo",
-            "apodo": "Chirigota de Iván Romero y Carlos",
-            "posicion": "",
-            "imagen": "/src/cuanto-tu-vas-yo-vengo.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "23:00h",
-                            "lugar": "Plaza San Agustín",
-                            "lat": 36.532392,
-                            "lng": -6.293929
-                        }
-                    ]
-                },
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "01:00h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los calaíta",
-            "apodo": "Chirigota del Pelu",
-            "posicion": "",
-            "imagen": "/src/los-calaita.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "09/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Puerto Real",
-                            "lat": 36.526164,
-                            "lng": -6.191856
-                        },
-                        {
-                            "hora": "22:30h",
-                            "lugar": "Catedral",
-                            "lat": 36.529413,
-                            "lng": -6.295142
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:30h",
-                            "lugar": "Plaza San Francisco",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        },
-                        {
-                            "hora": "22:30h",
-                            "lugar": "Peña Paco Alba",
-                            "lat": 36.527087,
-                            "lng": -6.287937
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los muchachos del congelao",
-            "apodo": "Chirigota El Canijo",
-            "posicion": "",
-            "imagen": "/src/los-muchachos-del-congelao.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:30h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:30h",
-                            "lugar": "El Mentidero",
-                            "lat": 36.535706,
-                            "lng": -6.301056
-                        },
-                        {
-                            "hora": "23:00h",
-                            "lugar": "Santa Cruz",
-                            "lat": 36.528575,
-                            "lng": -6.294317
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los pimpinelas de la plaza Fragela",
-            "apodo": "Chirigota del Molina",
-            "posicion": "",
-            "imagen": "/src/los-pimpinela-de-la-plaza-fragela.jpg",
-            "actuaciones": []
-        },
-        {
-            "nombre": "La resistencia",
-            "apodo": "Comparsa Carapapa",
-            "posicion": "",
-            "imagen": "/src/la-resistencia.jpg",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Los auténticos pitorrisas",
-            "apodo": "Chirigota Hermanos Alvarado",
-            "posicion": "",
-            "imagen": "/src/los-autenticos-pitorrisas.jpg",
-            "actuaciones": []
-        },
-        {
-            "nombre": "La tribu",
+            "nombre": "El desguace",
             "apodo": "Comparsa del Chapa",
-            "posicion": "",
-            "imagen": "/src/la-tribu.jpg.webp",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/el-desguace.jpg",
             "actuaciones": []
         },
         {
-            "nombre": "Por si acaso Las precavidas",
-            "apodo": "Chirigota de Antoñito",
-            "posicion": "",
-            "imagen": "/src/por-si-acaso-las-precavidas.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Que sea lo que dios quiera",
-            "apodo": "Chirigota de Rota",
-            "posicion": "",
-            "imagen": "/src/que-sea-lo-que-dios-quiera.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Plaza San Agustín",
-                            "lat": 36.532392,
-                            "lng": -6.293929
-                        },
-                        {
-                            "hora": "21:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Las ratas",
+            "nombre": "DSAS3",
             "apodo": "Comparsa Jesús Bienvenido",
             "posicion": "",
-            "imagen": "/src/las-ratas.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "21:30h",
-                            "lugar": "Plaza San Francisco",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        },
-                        {
-                            "hora": "22:30h",
-                            "lugar": "Puerto Real",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "¡Payaso!",
-            "apodo": "Comparsa Zampi y Nene Cheza",
-            "posicion": "",
-            "imagen": "/src/payaso.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        },
-                        {
-                            "hora": "20:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "22:00h",
-                            "lugar": "Bar Genoves",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los hermanos del buen fin",
-            "apodo": "Chirigota del Bizcocho",
-            "posicion": "",
-            "imagen": "/src/los-hermanos-del-buen-fin.jpg.webp",
+            "imagen": "/src/dsas3.jpg",
             "actuaciones": []
         },
         {
-            "nombre": "Los butaneros chirigota de CAI/CDC",
-            "apodo": "Chirigota Kike Remolino",
+            "nombre": "Los pájaros carpinteros",
+            "apodo": "Comparsa de Nene Cheza",
             "posicion": "",
-            "imagen": "/src/los-butaneros.jpg",
+            "imagen": "/src/los-pajaros-carpinteros.jpg",
             "actuaciones": []
         },
         {
-            "nombre": "El cementerio",
-            "apodo": "Comparsa del Jona",
-            "posicion": "",
-            "imagen": "/src/el-cementerio.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:00h",
-                            "lugar": "Plaza San Francisco",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        },
-                        {
-                            "hora": "23:00h",
-                            "lugar": "El Mentidero",
-                            "lat": 36.535706,
-                            "lng": -6.301056
-                        }
-                    ]
-                },
-                {
-                    "fecha": "09/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "17:00h",
-                            "lugar": "Escalerilla Facultad",
-                            "lat": 36.534380,
-                            "lng": -6.302379
-                        },
-                        {
-                            "hora": "18:00h",
-                            "lugar": "El Mentidero",
-                            "lat": 36.535706,
-                            "lng": -6.301056
-                        },
-                        {
-                            "hora": "19:00h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        },
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Plaza del Palillero",
-                            "lat": 36.531971,
-                            "lng": -6.296294
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Apartamentos turísticos Juani Wainjaus",
-            "apodo": "Chirigota del Selu",
-            "posicion": "",
-            "imagen": "/src/apartamentos-turisticos-juani-wuainjaus.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Los poderosos",
-            "apodo": "Comparsa Manuel Cornejo",
-            "posicion": "",
-            "imagen": "/src/los-poderosos.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "09/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "14:00h",
-                            "lugar": "Escalerilla Facultad",
-                            "lat": 36.534380,
-                            "lng": -6.302379
-                        }
-                    ]
-                },
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:00h",
-                            "lugar": "Oratorio San Felipe",
-                            "lat": 36.53300,
-                            "lng": -6.29967
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "22:00h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los cagones",
-            "apodo": "Chirigota Santander",
-            "posicion": "",
-            "imagen": "/src/los-cagones.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "09/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "14:00h",
-                            "lugar": "Calle San Miguel",
-                            "lat": 36.532498,
-                            "lng": -6.297413
-                        },
-                        {
-                            "hora": "16:00h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        },
-                        {
-                            "hora": "21:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Una chirigota con Shoniket3",
-            "apodo": "Chirigota de los Pibes",
-            "posicion": "",
-            "imagen": "/src/una-chirigota-con-shoniket3.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "22:00h",
-                            "lugar": "Plaza San Agustín",
-                            "lat": 36.532392,
-                            "lng": -6.293929
-                        },
-                        {
-                            "hora": "23:00h",
-                            "lugar": "Santa Cruz",
-                            "lat": 36.528575,
-                            "lng": -6.294317
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los del otro barrio",
-            "apodo": "Comparsa de la Cantera",
-            "posicion": "",
-            "imagen": "/src/los-del-otro-barrio.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:00h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "23:00h",
-                            "lugar": "Santa Cruz",
-                            "lat": 36.528575,
-                            "lng": -6.294317
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Al cielo con él",
-            "apodo": "Chirigota de Écija",
-            "posicion": "",
-            "imagen": "/src/al-cielo-con-el.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Los James Bond que da gloria verlos",
-            "apodo": "Chirigota del Yuyu",
-            "posicion": "",
-            "imagen": "/src/los-james-bond-que-da-gloria-verlos.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "Los disléxicos",
-            "apodo": "Chirigota de los Villegas",
-            "posicion": "",
-            "imagen": "/src/los-dislexicos.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:30h",
-                            "lugar": "Plaza San Francisco",
-                            "lat": 36.534435,
-                            "lng": -6.296082
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Vuelvo de gira con Bob Dylan",
-            "apodo": "Chirigota del Cascana",
-            "posicion": "",
-            "imagen": "/src/vuelvo-de-gira-con-bob-dylan.jpg.webp",
-            "actuaciones": []
-        },
-        {
-            "nombre": "desOBDC",
+            "nombre": "OBDC me quedo contigo",
             "apodo": "Comparsa de Germán Rendón",
             "posicion": "",
-            "imagen": "/src/DesOBDC.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "22:30h",
-                            "lugar": "Plaza Pinto",
-                            "lat": 36.530532,
-                            "lng": -6.302109
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los Sherijuego",
-            "apodo": "Chirigota del Sheriff",
-            "posicion": "",
-            "imagen": "/src/los-sherijuegos.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "06/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Museo de Cádiz",
-                            "lat": 36.53511,
-                            "lng": -6.29654
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "21:00h",
-                            "lugar": "Plaza San Agustín",
-                            "lat": 36.532392,
-                            "lng": -6.293929
-                        },
-                        {
-                            "hora": "22:30h",
-                            "lugar": "Torre Tavira",
-                            "lat": 36.532045,
-                            "lng": -6.298424
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Los Wonderful",
-            "apodo": "Comparsa de Fran Quintana",
-            "posicion": "",
-            "imagen": "/src/los-wonderful.jpg.webp",
+            "imagen": "/src/obdc-me-quedo-contigo.jpg",
             "actuaciones": []
         },
         {
-            "nombre": "Los del manteca",
+            "nombre": "Los hijos de Cádiz",
+            "apodo": "Comparsa de Fran Quintana",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/los-hijos-de-cadiz.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los locos",
+            "apodo": "Comparsa de la Cantera",
+            "posicion": "",
+            "imagen": "/src/los-locos.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "El manicomio",
+            "apodo": "Comparsa del Jona",
+            "posicion": "",
+            "imagen": "/src/el-manicomio.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los humanos",
+            "apodo": "Comparsa de Antonio Martinez Ares",
+            "posicion": "",
+            "imagen": "/src/los-humanos.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los invisibles",
+            "apodo": "Comparsa Manuel Cornejo",
+            "posicion": "",
+            "imagen": "/src/los-invisibles.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Lxs invencibles",
+            "apodo": "Comparsa de Tamara Beardo",
+            "posicion": "Preliminares",
+            "imagen": "/src/lxs-invencibles.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "La marea",
+            "apodo": "Comparsa de Yoli Álvarez",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/la-marea.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Una chirigota en teoría",
+            "apodo": "Chirigota de Miguel Ángel Llul",
+            "posicion": "",
+            "imagen": "/src/una-chirigota-en-teoria.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los antiguos",
+            "apodo": "Chirigota de Iván Romero y Carlos",
+            "posicion": "",
+            "imagen": "/src/los-antiguos.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los amish del mono",
+            "apodo": "Chirigota del Peluca",
+            "posicion": "",
+            "imagen": "/src/los-amish-del-mono.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los que la tienen de mármol",
+            "apodo": "Chirigota del Molina y Melli",
+            "posicion": "",
+            "imagen": "/src/los-que-la-tienen-de-marmol.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Cariño...¡Vaya ambientazo!",
+            "apodo": "Chirigota del Chicho",
+            "posicion": "Preliminares",
+            "imagen": "/src/carino-vaya-ambientazo.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los compay",
+            "apodo": "Chirigota Los Molina",
+            "posicion": "",
+            "imagen": "/src/los-compay.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los Muerting Planner",
+            "apodo": "Chirigota de Rota",
+            "posicion": "",
+            "imagen": "/src/los-muerting-planner.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Shhhhhh",
+            "apodo": "Chirigota del Bizcocho",
+            "posicion": "",
+            "imagen": "/src/ssshhhhh.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Seguimos cayendo mal",
+            "apodo": "Chriigota de Diego Letrán",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/seguimos-cayendo-mal.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los cadisapiens",
+            "apodo": "Chirigota Santander",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/los-cadisapiens.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los hombres de Paco",
+            "apodo": "Chirigota de los Pibes",
+            "posicion": "",
+            "imagen": "/src/los-hombres-de-paco.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Nos hemos venío arriba",
+            "apodo": "Chirigota de Écija",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/nos-hemos-venio-arriba.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los que van a coger papas",
+            "apodo": "Chirigota del Yuyu",
+            "posicion": "",
+            "imagen": "/src/los-que-van-a-coger-papas.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los desconfiaos",
+            "apodo": "Chirigota de los Villegas",
+            "posicion": "",
+            "imagen": "/src/los-desconfiaos.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los quince en las algas",
+            "apodo": "Chirigota del Cascana",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/los-quince-en-las-algas.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los semicuraos",
+            "apodo": "Chirigota del Sheriff",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/los-semicuraos.jpg",
+            "actuaciones": []
+        },
+        {
+            "nombre": "Los niños de Criso",
             "apodo": "Chirigota la Ilegalvez",
             "posicion": "Callejera",
-            "imagen": "/src/la-ilegalvez.jpg",
+            "imagen": "/src/los-ninos-de-criso.jpg",
             "actuaciones": []
         },
         {
-            "nombre": "La Chulita",
-            "apodo": "Comparsa de Tamara Beardo",
-            "posicion": "",
-            "imagen": "/src/la-chulita.jpg.webp",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:00h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre": "Ku Klux Klan Klan",
+            "nombre": "¡Que no vengan!",
             "apodo": "Cuarteto del Gago",
-            "posicion": "1 Premio",
-            "imagen": "/src/ku-kux-klan-klan.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "20:30h",
-                            "lugar": "Plaza de Candelaria",
-                            "lat": 36.531192,
-                            "lng": -6.295196
-                        }
-                    ]
-                }
-            ]
+            "posicion": "",
+            "imagen": "/src/que-no-vengan.jpg",
+            "actuaciones": []
         }
     ],
     "lugares": [
