@@ -29,21 +29,21 @@
         {
             "nombre": "DSAS3",
             "apodo": "Comparsa Jesús Bienvenido",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/dsas3.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los pájaros carpinteros",
             "apodo": "Comparsa de Nene Cheza",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-pajaros-carpinteros.jpg",
             "actuaciones": []
         },
         {
             "nombre": "OBDC me quedo contigo",
             "apodo": "Comparsa de Germán Rendón",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/obdc-me-quedo-contigo.jpg",
             "actuaciones": []
         },
@@ -57,28 +57,28 @@
         {
             "nombre": "Los locos",
             "apodo": "Comparsa de la Cantera",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-locos.jpg",
             "actuaciones": []
         },
         {
             "nombre": "El manicomio",
             "apodo": "Comparsa del Jona",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/el-manicomio.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los humanos",
             "apodo": "Comparsa de Antonio Martinez Ares",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/los-humanos.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los invisibles",
             "apodo": "Comparsa Manuel Cornejo",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-invisibles.jpg",
             "actuaciones": []
         },
@@ -99,28 +99,28 @@
         {
             "nombre": "Una chirigota en teoría",
             "apodo": "Chirigota de Miguel Ángel Llul",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/una-chirigota-en-teoria.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los antiguos",
             "apodo": "Chirigota de Iván Romero y Carlos",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-antiguos.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los amish del mono",
             "apodo": "Chirigota del Peluca",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/los-amish-del-mono.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los que la tienen de mármol",
             "apodo": "Chirigota del Molina y Melli",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-que-la-tienen-de-marmol.jpg",
             "actuaciones": []
         },
@@ -134,21 +134,21 @@
         {
             "nombre": "Los compay",
             "apodo": "Chirigota Los Molina",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-compay.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los Muerting Planner",
             "apodo": "Chirigota de Rota",
-            "posicion": "",
+            "posicion": "Cuartos de final",
             "imagen": "/src/los-muerting-planner.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Shhhhhh",
             "apodo": "Chirigota del Bizcocho",
-            "posicion": "",
+            "posicion": "Fianlistas",
             "imagen": "/src/ssshhhhh.jpg",
             "actuaciones": []
         },
@@ -169,7 +169,7 @@
         {
             "nombre": "Los hombres de Paco",
             "apodo": "Chirigota de los Pibes",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-hombres-de-paco.jpg",
             "actuaciones": []
         },
@@ -183,14 +183,14 @@
         {
             "nombre": "Los que van a coger papas",
             "apodo": "Chirigota del Yuyu",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/los-que-van-a-coger-papas.jpg",
             "actuaciones": []
         },
         {
             "nombre": "Los desconfiaos",
             "apodo": "Chirigota de los Villegas",
-            "posicion": "",
+            "posicion": "Semifinales",
             "imagen": "/src/los-desconfiaos.jpg",
             "actuaciones": []
         },
@@ -218,7 +218,7 @@
         {
             "nombre": "¡Que no vengan!",
             "apodo": "Cuarteto del Gago",
-            "posicion": "",
+            "posicion": "Finalistas",
             "imagen": "/src/que-no-vengan.jpg",
             "actuaciones": []
         }
