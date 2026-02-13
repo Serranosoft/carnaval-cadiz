@@ -113,14 +113,23 @@ function renderList() {
                 favBtn.addEventListener("click", (e) => {
                     e.stopPropagation();
                     const currentFavs = JSON.parse(localStorage.getItem("favorites") || "[]");
+
                     if (currentFavs.includes(agrupacion.nombre)) {
-                        const newFavs = currentFavs.filter(id => id !== agrupacion.nombre);
-                        localStorage.setItem("favorites", JSON.stringify(newFavs));
+                        // Removing: Animate first, then update
+                        favBtn.classList.remove("active");
+                        favBtn.classList.add("removing");
+
+                        setTimeout(() => {
+                            const newFavs = currentFavs.filter(id => id !== agrupacion.nombre);
+                            localStorage.setItem("favorites", JSON.stringify(newFavs));
+                            renderList();
+                        }, 300); // Wait for animation
                     } else {
+                        // Adding: Update immediately (animation plays on new render)
                         currentFavs.push(agrupacion.nombre);
                         localStorage.setItem("favorites", JSON.stringify(currentFavs));
+                        renderList();
                     }
-                    renderList();
                 });
             }
 
