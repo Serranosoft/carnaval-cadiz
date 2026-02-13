@@ -144,6 +144,29 @@ function renderMap(coords, zoom) {
         mapCanvasElement.addEventListener("click", () => {
             closePanel();
         });
+
+        // 🔒 Disable map interaction when panel is open
+        const observer = new MutationObserver(() => {
+            const isPanelOpen = panelElement.classList.contains("show") || panelElement.classList.contains("full");
+            if (isPanelOpen) {
+                map.scrollZoom.disable();
+                map.boxZoom.disable();
+                map.dragRotate.disable();
+                map.dragPan.disable();
+                map.keyboard.disable();
+                map.doubleClickZoom.disable();
+                map.touchZoomRotate.disable();
+            } else {
+                map.scrollZoom.enable();
+                map.boxZoom.enable();
+                map.dragRotate.enable();
+                map.dragPan.enable();
+                map.keyboard.enable();
+                map.doubleClickZoom.enable();
+                map.touchZoomRotate.enable();
+            }
+        });
+        observer.observe(panelElement, { attributes: true, attributeFilter: ["class"] });
     } else {
         map.setCenter(coords);
         map.setZoom(zoom);
