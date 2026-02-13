@@ -181,32 +181,8 @@ function fillModal(agrupacion) {
                 const modalItemStreet = modalItemRow.querySelector(".modal-item-street");
                 modalItemStreet.textContent = metadata.lugar;
 
-                const modalItemButton = modalItemRow.querySelector("a.button");
+                const modalItemButton = modalItemRow.querySelector(".button");
                 modalItemButton.href = `/map.html?calle=${metadata.lugar.split(" ").join("+")}`;
-
-                // Share Functionality
-                const shareBtn = modalItemRow.querySelector(".share-btn");
-                if (shareBtn) {
-                    shareBtn.addEventListener("click", async () => {
-                        const shareData = {
-                            title: `Actuación de ${agrupacion.nombre}`,
-                            text: `¡No te pierdas a ${agrupacion.nombre} en ${metadata.lugar} a las ${metadata.hora}! 🎭 #CarnavalCádiz`,
-                            url: window.location.origin // Or specific deep link if available
-                        };
-
-                        try {
-                            if (navigator.share) {
-                                await navigator.share(shareData);
-                            } else {
-                                // Fallback: Copy to clipboard
-                                await navigator.clipboard.writeText(`${shareData.title}\n${shareData.text}\n${shareData.url}`);
-                                alert("Información copiada al portapapeles");
-                            }
-                        } catch (err) {
-                            console.error("Error sharing:", err);
-                        }
-                    });
-                }
 
                 modalInfo.appendChild(modalItemRow);
             })

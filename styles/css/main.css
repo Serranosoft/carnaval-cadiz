@@ -767,23 +767,7 @@ body.modal-open .fab-map {
   border: none;
 }
 
-.modal-actions {
-  display: flex;
-  gap: 0.5rem;
-}
 
-.info .row .share-btn {
-  background-color: transparent;
-  color: var(--text-medium);
-  box-shadow: none;
-  border: 1px solid var(--divider-color);
-}
-
-.info .row .share-btn:active {
-  background-color: var(--bg-color);
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
 
 
 /* Map Panel (Bottom Sheet style) */
