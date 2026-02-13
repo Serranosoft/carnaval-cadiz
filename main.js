@@ -90,6 +90,17 @@ function renderList() {
 
         list.innerHTML = "";
 
+        if (currentFilter === "favoritos" && sortedAgrupaciones.length === 0) {
+            list.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-icon">⭐</div>
+                    <h3>No tienes favoritos</h3>
+                    <p>Añade agrupaciones a tus favoritos para verlas aquí rápidamente.</p>
+                </div>
+            `;
+            return;
+        }
+
         sortedAgrupaciones.forEach((agrupacion) => {
             const boxElement = boxTemplate.content.cloneNode(true);
 
