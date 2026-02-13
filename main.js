@@ -7,12 +7,15 @@ const modalItemTemplate = document.querySelector(".modal-item-template");
 const modalItemRowTemplate = document.querySelector(".modal-item-row-template");
 
 let currentFilter = "all";
+let allAgrupaciones = []; // Cache for data
 
-function init() {
+async function init() {
+    await loadData();
     renderUpdate();
     renderList();
     addFilterEvents();
     addModalEvents();
+    addSearchEvents();
 
     const titleElement = document.querySelector("body > .title");
     const fabElement = document.querySelector(".fab-map");
@@ -20,20 +23,14 @@ function init() {
     if (titleElement && fabElement) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                console.log("Title intersecting:", entry.isIntersecting);
-                // When title is NOT visible (isIntersecting = false), show FAB
                 if (entry.isIntersecting) {
                     fabElement.classList.remove("visible");
-                    console.log("FAB hidden");
                 } else {
                     fabElement.classList.add("visible");
-                    console.log("FAB visible");
                 }
             });
-        }); // Default threshold is 0
+        });
         observer.observe(titleElement);
-    } else {
-        console.error("Title or FAB element not found");
     }
 }
 
@@ -44,37 +41,45 @@ if (document.readyState === "loading") {
     init();
 }
 
+async function loadData() {
+    try {
+        const response = await fetch("./data.json");
+        if (!response.ok) throw new Error("Failed to load data.json");
+        const data = await response.json();
+        allAgrupaciones = data.agrupaciones;
+        console.log("Data loaded for search:", allAgrupaciones.length);
+    } catch (error) {
+        console.error("Error loading data:", error);
+    }
+}
+
 async function renderUpdate() {
     const span = document.getElementById("time-span");
     let minutesElapsed = 0;
 
     function updateTime() {
         minutesElapsed++;
-        span.textContent = `Actualizado hace ${minutesElapsed}m`;
+        span.textContent = `Act. hace ${minutesElapsed}m`;
     }
-    span.textContent = "Actualizado recientemente";
+    span.textContent = "Act. recientemente";
 
     setInterval(updateTime, 60000);
 }
 
 
-async function renderList() {
+function renderList() {
     try {
-        const data = await fetch("./data.json").then(res => {
-            if (!res.ok) throw new Error("Failed to load data.json");
-            return res.json();
-        });
         const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
 
-        // Filter
-        let filteredAgrupaciones = data.agrupaciones;
+        // Filter using cached data
+        let filteredAgrupaciones = allAgrupaciones;
         if (currentFilter === "favoritos") {
-            filteredAgrupaciones = data.agrupaciones.filter(a => favorites.includes(a.nombre));
+            filteredAgrupaciones = allAgrupaciones.filter(a => favorites.includes(a.nombre));
         } else if (currentFilter !== "all") {
-            filteredAgrupaciones = data.agrupaciones.filter(a => a.tipo === currentFilter);
+            filteredAgrupaciones = allAgrupaciones.filter(a => a.tipo === currentFilter);
         }
 
-        // Sort: Favorites first (only if not already filtering by favorites)
+        // Sort: Favorites first
         const sortedAgrupaciones = [...filteredAgrupaciones].sort((a, b) => {
             const aFav = favorites.includes(a.nombre);
             const bFav = favorites.includes(b.nombre);
@@ -123,7 +128,7 @@ async function renderList() {
         });
     } catch (error) {
         console.error("Error rendering list:", error);
-        list.innerHTML = `<p class='error'>Error al cargar las agrupaciones. Por favor, intenta de nuevo más tarde. (${error.message})</p>`;
+        list.innerHTML = `<p class='error'>Error al cargar las agrupaciones. (${error.message})</p>`;
     }
 }
 
@@ -139,7 +144,7 @@ function addFilterEvents() {
     });
 }
 
-async function fillModal(agrupacion) {
+function fillModal(agrupacion) {
     const modalContent = document.querySelector("#modal .content");
     const modalTitle = document.querySelector(".modal-title");
     modalTitle.textContent = agrupacion.nombre;
@@ -183,7 +188,7 @@ async function fillModal(agrupacion) {
     document.body.style.overflow = "hidden";
 }
 
-async function addModalEvents() {
+function addModalEvents() {
     const closeModalElement = document.getElementById("close-modal");
     if (closeModalElement) {
         closeModalElement.addEventListener("click", () => {
@@ -205,3 +210,88 @@ async function addModalEvents() {
     });
 }
 
+function addSearchEvents() {
+    const searchBtn = document.getElementById("search-btn");
+    const searchModal = document.getElementById("search-modal");
+    const closeSearchBtn = document.getElementById("close-search");
+    const searchInput = document.getElementById("search-input");
+    const searchResults = document.querySelector(".search-results");
+    const searchEmpty = document.querySelector(".search-empty-state");
+
+    if (searchBtn && searchModal) {
+        searchBtn.addEventListener("click", () => {
+            searchModal.classList.add("show");
+            document.body.style.overflow = "hidden";
+            searchInput.focus();
+        });
+    }
+
+    const closeSearch = () => {
+        searchModal.classList.remove("show");
+        document.body.style.overflow = "";
+        searchInput.value = "";
+        searchResults.innerHTML = "";
+        searchEmpty.style.display = "none";
+    };
+
+    if (closeSearchBtn) {
+        closeSearchBtn.addEventListener("click", closeSearch);
+    }
+
+    // Close search on backdrop click
+    searchModal.addEventListener("click", (e) => {
+        if (e.target === searchModal) {
+            closeSearch();
+        }
+    });
+
+    searchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        searchResults.innerHTML = "";
+
+        if (query.length === 0) {
+            searchEmpty.style.display = "none";
+            return;
+        }
+
+        console.log(`Filtering for "${query}" in ${allAgrupaciones.length} items`);
+
+        const results = allAgrupaciones.filter(a => {
+            const nombre = (a.nombre || "").toLowerCase();
+            const apodo = (a.apodo || "").toLowerCase();
+            const autor = (a.autor || "").toLowerCase();
+
+            return nombre.includes(query) ||
+                apodo.includes(query) ||
+                autor.includes(query)
+        });
+
+        console.log(`Found ${results.length} matches`);
+
+        if (results.length > 0) {
+            searchEmpty.style.display = "none";
+            results.forEach(agrupacion => {
+                const el = document.createElement("div");
+                el.className = "panel-agrupacion";
+                el.style.marginBottom = "1rem";
+                el.style.cursor = "pointer";
+                el.innerHTML = `
+                    <div class="row">
+                        <img src="${agrupacion.imagen}" alt="${agrupacion.nombre}" style="width: 50px; height: 50px; border-radius: 1rem; object-fit: cover;">
+                        <div class="column">
+                            <span class="nombre" style="font-size: 1.1rem;">${agrupacion.nombre}</span>
+                            <span class="apodo" style="font-size: 0.85rem;">${agrupacion.apodo}</span>
+                        </div>
+                    </div>
+                `;
+                el.addEventListener("click", () => {
+                    fillModal(agrupacion);
+                    closeSearch();
+                });
+                searchResults.appendChild(el);
+            });
+        } else {
+            searchEmpty.style.display = "block";
+        }
+    });
+}

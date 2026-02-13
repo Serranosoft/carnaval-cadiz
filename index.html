@@ -15,14 +15,21 @@
 
 <body>
     <div class="title">
-        <div class="updated">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
-                <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
-            </svg>
-            <span id="time-span"></span>
+        <div class="left-section">
+            <button id="search-btn" class="icon-btn" aria-label="Buscar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                </svg>
+            </button>
+            <div class="updated-container">
+                <span class="app-title">Carnaval</span>
+                <div class="updated">
+                    <span id="time-span"></span>
+                </div>
+            </div>
         </div>
         <a href="map.html" class="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -32,7 +39,7 @@
                 <path d="M9 4v13" />
                 <path d="M15 7v13" />
             </svg>
-            <span>Ver mapa</span>
+            <span>Mapa</span>
         </a>
     </div>
     <div class="filters">
@@ -136,6 +143,29 @@
         <span class="span-2"></span>
         <span class="span-3"></span>
     </template>
+
+    <div id="search-modal">
+        <div class="wrapper">
+            <div class="search-header">
+                <div class="input-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                    <input type="search" id="search-input" placeholder="Buscar agrupación, autor..." autocomplete="off">
+                </div>
+                <button id="close-search">Cancelar</button>
+            </div>
+            <div class="search-results">
+                <!-- Results will be injected here -->
+            </div>
+            <div class="search-empty-state" style="display: none;">
+                <span>No se encontraron resultados</span>
+            </div>
+        </div>
+    </div>
 
     <a href="map.html" class="fab-map">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
