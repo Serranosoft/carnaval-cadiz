@@ -156,7 +156,9 @@ function addFilterEvents() {
 function fillModal(agrupacion) {
     const modalContent = document.querySelector("#modal .content");
     const modalTitle = document.querySelector(".modal-title");
+    const modalApodo = document.querySelector(".modal-apodo");
     modalTitle.textContent = agrupacion.nombre;
+    modalApodo.textContent = agrupacion.apodo || "";
 
     const modalItemRef = modalItemTemplate.content.cloneNode(true);
     const modalItem = modalItemRef.querySelector(".item");

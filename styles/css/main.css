@@ -672,10 +672,21 @@ body>.title .button {
   border-bottom: 1px solid var(--divider-color);
 }
 
+#modal .wrapper>.title .modal-header-text {
+  display: flex;
+  flex-direction: column;
+}
+
 #modal .wrapper>.title .modal-title {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-dark);
+}
+
+#modal .wrapper>.title .modal-apodo {
+  font-size: 0.9rem;
+  color: var(--text-medium);
+  font-weight: 400;
 }
 
 #modal .wrapper>.title .close {
