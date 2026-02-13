@@ -18,13 +18,26 @@ async function init() {
     renderMarkers();
 
     // Add interactions
+    // Add interactions
     if (panelHandleElement && panelCalleElement) {
+        let panelMaxHeight, peekViewHeight, peekTranslateY;
+
+        const updateBreakpoints = () => {
+            panelMaxHeight = Math.round(window.innerHeight * 0.92);
+            peekViewHeight = Math.round(window.innerHeight * 0.40);
+            peekTranslateY = panelMaxHeight - peekViewHeight;
+
+            // Set CSS variable for strict pixel alignment
+            panelElement.style.setProperty("--peek-offset", `${peekTranslateY}px`);
+            panelElement.style.setProperty("--panel-height", `${panelMaxHeight}px`);
+        };
+
+        window.addEventListener("resize", updateBreakpoints);
+        updateBreakpoints(); // Initial calculation
+
         panelHandleElement.addEventListener("click", togglePanelSize);
 
         let startY, currentY, initialTranslateY, startTime;
-        const panelMaxHeight = window.innerHeight * 0.92;
-        const peekViewHeight = window.innerHeight * 0.40;
-        const peekTranslateY = panelMaxHeight - peekViewHeight;
 
         const getTranslateY = (el) => {
             const style = window.getComputedStyle(el);
@@ -49,7 +62,7 @@ async function init() {
             if (newTranslateY < 0) newTranslateY = newTranslateY * 0.2; // Rubber band effect at top
             if (newTranslateY > panelMaxHeight) newTranslateY = panelMaxHeight + (newTranslateY - panelMaxHeight) * 0.2;
 
-            panelElement.style.transform = `translateY(${newTranslateY}px)`;
+            panelElement.style.transform = `translateY(${Math.round(newTranslateY)}px)`; // Round for sharpness during drag
         };
 
         const onTouchEnd = (e) => {

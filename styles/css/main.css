@@ -759,8 +759,8 @@ body>.title .button {
   width: 100%;
 
   /* Fixed height for fluid dragging */
-  height: 92vh;
-  max-height: 92vh;
+  height: var(--panel-height, 92vh);
+  max-height: var(--panel-height, 92vh);
 
   background-color: var(--surface-color);
   z-index: 100;
@@ -783,7 +783,7 @@ body>.title .button {
 
 #map .panel.show {
   /* Default "peek" state (showing ~40% of screen) */
-  transform: translateY(calc(92vh - 40vh));
+  transform: translateY(var(--peek-offset, 52vh));
 }
 
 #map .panel.full {
