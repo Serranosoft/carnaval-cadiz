@@ -172,16 +172,33 @@ function fillModal(agrupacion) {
     modalApodo.textContent = agrupacion.apodo || "";
 
     const modalItemRef = modalItemTemplate.content.cloneNode(true);
-    const modalItem = modalItemRef.querySelector(".item");
-    const emptyMessageEl = modalItem.querySelector(".empty");
+    const emptyItem = modalItemRef.querySelector(".item");
+    const emptyMessageEl = emptyItem.querySelector(".empty");
 
     if (agrupacion.actuaciones.length > 0) {
-        emptyMessageEl.style.display = "none";
-        agrupacion.actuaciones.forEach((actuacion) => {
-            const date = modalItem.querySelector(".modal-item-date");
+        // Sort by date
+        const parseDate = (dateStr) => {
+            const [day, month, year] = dateStr.split('/').map(Number);
+            return new Date(year, month - 1, day);
+        };
+
+        const sortedActuaciones = [...agrupacion.actuaciones].sort((a, b) => {
+            return parseDate(a.fecha) - parseDate(b.fecha);
+        });
+
+        sortedActuaciones.forEach((actuacion) => {
+            const itemRef = modalItemTemplate.content.cloneNode(true);
+            const item = itemRef.querySelector(".item");
+            item.querySelector(".empty").style.display = "none";
+
+            const date = item.querySelector(".modal-item-date");
             date.textContent = actuacion.fecha;
 
-            const modalInfo = modalItem.querySelector(".info");
+            const modalInfo = item.querySelector(".info");
+
+            // Sort metadata by time? User didn't ask but good practice. Assuming data is sorted or time sort is separate task.
+            // Keeping order as is or sorting by time if needed. The request only mentions date sorting.
+
             actuacion.metadata.forEach((metadata) => {
                 const modalItemRowRef = modalItemRowTemplate.content.cloneNode(true);
                 const modalItemRow = modalItemRowRef.querySelector(".row");
@@ -198,12 +215,12 @@ function fillModal(agrupacion) {
                 modalInfo.appendChild(modalItemRow);
             })
 
-            modalItem.appendChild(modalInfo);
-            modalContent.appendChild(modalItem);
+            item.appendChild(modalInfo);
+            modalContent.appendChild(item);
         })
     } else {
         emptyMessageEl.textContent = `${agrupacion.nombre} no han publicado horarios`;
-        modalContent.appendChild(emptyMessageEl);
+        modalContent.appendChild(emptyItem);
     }
 
     modal.classList.add("show");

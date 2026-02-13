@@ -185,6 +185,8 @@ async function renderMarkers() {
     const data = await fetch("./data.json").then(res => res.json()).then(data => data);
 
     data.lugares.forEach((lugar) => {
+        if (!lugar.lat || !lugar.lng) return; // Skip if coordinates are missing
+
         const el = document.createElement('div');
         el.className = 'custom-marker';
         // Classic Pin SVG with Primary Color (#800020)

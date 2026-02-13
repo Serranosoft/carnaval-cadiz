@@ -6,54 +6,7 @@
             "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/el-hombre-de-hojalata.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
+            "actuaciones": []
         },
         {
             "nombre": "El desguace",
@@ -61,54 +14,7 @@
             "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/el-desguace.jpg",
-            "actuaciones": [
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                },
-                {
-                    "fecha": "05/03/2025",
-                    "metadata": [
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        },
-                        {
-                            "hora": "19:30h",
-                            "lugar": "Barrio de la Viña",
-                            "lat": 36.529741,
-                            "lng": -6.303338
-                        }
-                    ]
-                }
-            ]
+            "actuaciones": []
         },
         {
             "nombre": "DSAS3",
@@ -132,7 +38,25 @@
             "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/obdc-me-quedo-contigo.jpg",
-            "actuaciones": []
+            "actuaciones": [
+                {
+                    "fecha": "14/02/2026",
+                    "metadata": [
+                        {
+                            "hora": "16:00h",
+                            "lugar": "Plaza del Palillero",
+                            "lat": 36.531971,
+                            "lng": -6.296294
+                        },
+                        {
+                            "hora": "17:00h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "Los hijos de Cádiz",
@@ -319,6 +243,90 @@
             "actuaciones": []
         },
         {
+            "nombre": "Los robins",
+            "apodo": "Chirigota de Santa María",
+            "tipo": "chirigota",
+            "posicion": "Cuartos de final",
+            "imagen": "/src/los-robins.jpg",
+            "actuaciones": [
+                {
+                    "fecha": "14/02/2026",
+                    "metadata": [
+                        {
+                            "hora": "14:30h",
+                            "lugar": "Plaza del Palillero",
+                            "lat": 36.531971,
+                            "lng": -6.296294
+                        },
+                        {
+                            "hora": "16:00h",
+                            "lugar": "Plaza San Francisco",
+                            "lat": 36.534435,
+                            "lng": -6.296082
+                        }
+                    ]
+                },
+                {
+                    "fecha": "15/02/2026",
+                    "metadata": [
+                        {
+                            "hora": "13:30h",
+                            "lugar": "Calle Santa María",
+                            "lat": 36.528165,
+                            "lng": -6.292173
+                        },
+                        {
+                            "hora": "15:00h",
+                            "lugar": "Sopranis 'Almacén Joaqui'",
+                            "lat": 36.528903,
+                            "lng": -6.290861
+                        },
+                        {
+                            "hora": "22:00h",
+                            "lugar": "El Mentidero",
+                            "lat": 36.535706,
+                            "lng": -6.301056
+                        },
+                        {
+                            "hora": "23:00h",
+                            "lugar": "Santa Cruz",
+                            "lat": 36.528575,
+                            "lng": -6.294317
+                        }
+                    ]
+                },
+                {
+                    "fecha": "16/02/2026",
+                    "metadata": [
+                        {
+                            "hora": "13:00h",
+                            "lugar": "Sherry Wine Shop",
+                            "lat": 36.530054,
+                            "lng": -6.298576
+                        },
+                        {
+                            "hora": "14:00h",
+                            "lugar": "La cabra loca",
+                            "lat": 36.531820,
+                            "lng": -6.300070
+                        },
+                        {
+                            "hora": "15:00h",
+                            "lugar": "La viñera",
+                            "lat": 36.531820,
+                            "lng": -6.300070
+                        },
+                        {
+                            "hora": "21:00h",
+                            "lugar": "El laurel",
+                            "lat": 36.529514082015694,
+                            "lng": -6.3021997483052745
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "nombre": "Los niños de Criso",
             "apodo": "Chirigota la Ilegalvez",
             "tipo": "callejera",
@@ -415,6 +423,36 @@
             "nombre": "Calle San Miguel",
             "lat": 36.532498,
             "lng": -6.297413
+        },
+        {
+            "nombre": "Calle Santa María",
+            "lat": 36.528165,
+            "lng": -6.292173
+        },
+        {
+            "nombre": "Sopranis 'Almacén Joaqui'",
+            "lat": 36.528903,
+            "lng": -6.290861
+        },
+        {
+            "nombre": "Sherry Wine Shop",
+            "lat": 36.530054,
+            "lng": -6.298576
+        },
+        {
+            "nombre": "La cabra loca",
+            "lat": 36.531820,
+            "lng": -6.300070
+        },
+        {
+            "nombre": "La viñera",
+            "lat": 36.531820,
+            "lng": -6.300070
+        },
+        {
+            "nombre": "El laurel",
+            "lat": 36.529514082015694,
+            "lng": -6.3021997483052745
         }
     ]
 }
