@@ -322,6 +322,12 @@ body>.title .button {
   transform: translateY(0);
 }
 
+body.modal-open .fab-map {
+  opacity: 0 !important;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+
 .fab-map svg {
   width: 1.5rem;
   height: 1.5rem;

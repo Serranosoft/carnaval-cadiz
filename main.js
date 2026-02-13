@@ -221,6 +221,7 @@ function fillModal(agrupacion) {
 
     modal.classList.add("show");
     document.body.style.overflow = "hidden";
+    document.body.classList.add("modal-open");
 }
 
 function addModalEvents() {
@@ -229,6 +230,7 @@ function addModalEvents() {
         closeModalElement.addEventListener("click", () => {
             modal.classList.remove("show");
             document.body.style.overflow = "";
+            document.body.classList.remove("modal-open");
             const modalContent = document.querySelector("#modal .content");
             modalContent.innerHTML = "";
         })
@@ -239,6 +241,7 @@ function addModalEvents() {
         if (e.target === modal) {
             modal.classList.remove("show");
             document.body.style.overflow = "";
+            document.body.classList.remove("modal-open");
             const modalContent = document.querySelector("#modal .content");
             modalContent.innerHTML = "";
         }
