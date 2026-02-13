@@ -15,7 +15,18 @@
 
 <body>
     <div class="title">
-        <div class="left-section">
+        <div class="header-info">
+            <span class="app-title">Carnaval Cádiz</span>
+            <div class="updated">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span id="time-span"></span>
+            </div>
+        </div>
+        <div class="header-actions">
             <button id="search-btn" class="icon-btn" aria-label="Buscar">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -24,23 +35,17 @@
                     <path d="M21 21l-6 -6" />
                 </svg>
             </button>
-            <div class="updated-container">
-                <span class="app-title">Carnaval</span>
-                <div class="updated">
-                    <span id="time-span"></span>
-                </div>
-            </div>
+            <a href="map.html" class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
+                    <path d="M9 4v13" />
+                    <path d="M15 7v13" />
+                </svg>
+                <span>Mapa</span>
+            </a>
         </div>
-        <a href="map.html" class="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
-                <path d="M9 4v13" />
-                <path d="M15 7v13" />
-            </svg>
-            <span>Mapa</span>
-        </a>
     </div>
     <div class="filters">
         <div class="wrapper">

@@ -149,21 +149,23 @@ body>.title {
   gap: 1rem;
 }
 
-body>.title .left-section {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-body>.title .updated-container {
+/* Header Layout */
+body>.title .header-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   line-height: 1.1;
 }
 
+body>.title .header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 body>.title .app-title {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  /* Slightly larger for emphasis */
   font-weight: 700;
   color: var(--text-dark);
 }
