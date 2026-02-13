@@ -3,12 +3,48 @@
         {
             "nombre": "El hombre de hojalata",
             "apodo": "Comparsa Hermanos Pastrana",
+            "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/el-hombre-de-hojalata.jpg",
             "actuaciones": [
                 {
                     "fecha": "05/03/2025",
                     "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                },
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
                         {
                             "hora": "19:30h",
                             "lugar": "Barrio de la Viña",
@@ -22,13 +58,62 @@
         {
             "nombre": "El desguace",
             "apodo": "Comparsa del Chapa",
+            "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/el-desguace.jpg",
-            "actuaciones": []
+            "actuaciones": [
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                },
+                {
+                    "fecha": "05/03/2025",
+                    "metadata": [
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        },
+                        {
+                            "hora": "19:30h",
+                            "lugar": "Barrio de la Viña",
+                            "lat": 36.529741,
+                            "lng": -6.303338
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nombre": "DSAS3",
             "apodo": "Comparsa Jesús Bienvenido",
+            "tipo": "comparsa",
             "posicion": "Finalistas",
             "imagen": "/src/dsas3.jpg",
             "actuaciones": []
@@ -36,6 +121,7 @@
         {
             "nombre": "Los pájaros carpinteros",
             "apodo": "Comparsa de Nene Cheza",
+            "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/los-pajaros-carpinteros.jpg",
             "actuaciones": []
@@ -43,6 +129,7 @@
         {
             "nombre": "OBDC me quedo contigo",
             "apodo": "Comparsa de Germán Rendón",
+            "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/obdc-me-quedo-contigo.jpg",
             "actuaciones": []
@@ -50,6 +137,7 @@
         {
             "nombre": "Los hijos de Cádiz",
             "apodo": "Comparsa de Fran Quintana",
+            "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/los-hijos-de-cadiz.jpg",
             "actuaciones": []
@@ -57,6 +145,7 @@
         {
             "nombre": "Los locos",
             "apodo": "Comparsa de la Cantera",
+            "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/los-locos.jpg",
             "actuaciones": []
@@ -64,6 +153,7 @@
         {
             "nombre": "El manicomio",
             "apodo": "Comparsa del Jona",
+            "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/el-manicomio.jpg",
             "actuaciones": []
@@ -71,6 +161,7 @@
         {
             "nombre": "Los humanos",
             "apodo": "Comparsa de Antonio Martinez Ares",
+            "tipo": "comparsa",
             "posicion": "Finalistas",
             "imagen": "/src/los-humanos.jpg",
             "actuaciones": []
@@ -78,6 +169,7 @@
         {
             "nombre": "Los invisibles",
             "apodo": "Comparsa Manuel Cornejo",
+            "tipo": "comparsa",
             "posicion": "Semifinales",
             "imagen": "/src/los-invisibles.jpg",
             "actuaciones": []
@@ -85,6 +177,7 @@
         {
             "nombre": "Lxs invencibles",
             "apodo": "Comparsa de Tamara Beardo",
+            "tipo": "comparsa",
             "posicion": "Preliminares",
             "imagen": "/src/lxs-invencibles.jpg",
             "actuaciones": []
@@ -92,6 +185,7 @@
         {
             "nombre": "La marea",
             "apodo": "Comparsa de Yoli Álvarez",
+            "tipo": "comparsa",
             "posicion": "Cuartos de final",
             "imagen": "/src/la-marea.jpg",
             "actuaciones": []
@@ -99,6 +193,7 @@
         {
             "nombre": "Una chirigota en teoría",
             "apodo": "Chirigota de Miguel Ángel Llul",
+            "tipo": "chirigota",
             "posicion": "Finalistas",
             "imagen": "/src/una-chirigota-en-teoria.jpg",
             "actuaciones": []
@@ -106,6 +201,7 @@
         {
             "nombre": "Los antiguos",
             "apodo": "Chirigota de Iván Romero y Carlos",
+            "tipo": "chirigota",
             "posicion": "Semifinales",
             "imagen": "/src/los-antiguos.jpg",
             "actuaciones": []
@@ -113,6 +209,7 @@
         {
             "nombre": "Los amish del mono",
             "apodo": "Chirigota del Peluca",
+            "tipo": "chirigota",
             "posicion": "Finalistas",
             "imagen": "/src/los-amish-del-mono.jpg",
             "actuaciones": []
@@ -120,6 +217,7 @@
         {
             "nombre": "Los que la tienen de mármol",
             "apodo": "Chirigota del Molina y Melli",
+            "tipo": "chirigota",
             "posicion": "Semifinales",
             "imagen": "/src/los-que-la-tienen-de-marmol.jpg",
             "actuaciones": []
@@ -127,6 +225,7 @@
         {
             "nombre": "Cariño...¡Vaya ambientazo!",
             "apodo": "Chirigota del Chicho",
+            "tipo": "chirigota",
             "posicion": "Preliminares",
             "imagen": "/src/carino-vaya-ambientazo.jpg",
             "actuaciones": []
@@ -134,6 +233,7 @@
         {
             "nombre": "Los compay",
             "apodo": "Chirigota Los Molina",
+            "tipo": "chirigota",
             "posicion": "Semifinales",
             "imagen": "/src/los-compay.jpg",
             "actuaciones": []
@@ -141,6 +241,7 @@
         {
             "nombre": "Los Muerting Planner",
             "apodo": "Chirigota de Rota",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/los-muerting-planner.jpg",
             "actuaciones": []
@@ -148,6 +249,7 @@
         {
             "nombre": "Shhhhhh",
             "apodo": "Chirigota del Bizcocho",
+            "tipo": "chirigota",
             "posicion": "Fianlistas",
             "imagen": "/src/ssshhhhh.jpg",
             "actuaciones": []
@@ -155,6 +257,7 @@
         {
             "nombre": "Seguimos cayendo mal",
             "apodo": "Chriigota de Diego Letrán",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/seguimos-cayendo-mal.jpg",
             "actuaciones": []
@@ -162,6 +265,7 @@
         {
             "nombre": "Los cadisapiens",
             "apodo": "Chirigota Santander",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/los-cadisapiens.jpg",
             "actuaciones": []
@@ -169,6 +273,7 @@
         {
             "nombre": "Los hombres de Paco",
             "apodo": "Chirigota de los Pibes",
+            "tipo": "chirigota",
             "posicion": "Semifinales",
             "imagen": "/src/los-hombres-de-paco.jpg",
             "actuaciones": []
@@ -176,6 +281,7 @@
         {
             "nombre": "Nos hemos venío arriba",
             "apodo": "Chirigota de Écija",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/nos-hemos-venio-arriba.jpg",
             "actuaciones": []
@@ -183,6 +289,7 @@
         {
             "nombre": "Los que van a coger papas",
             "apodo": "Chirigota del Yuyu",
+            "tipo": "chirigota",
             "posicion": "Finalistas",
             "imagen": "/src/los-que-van-a-coger-papas.jpg",
             "actuaciones": []
@@ -190,6 +297,7 @@
         {
             "nombre": "Los desconfiaos",
             "apodo": "Chirigota de los Villegas",
+            "tipo": "chirigota",
             "posicion": "Semifinales",
             "imagen": "/src/los-desconfiaos.jpg",
             "actuaciones": []
@@ -197,6 +305,7 @@
         {
             "nombre": "Los quince en las algas",
             "apodo": "Chirigota del Cascana",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/los-quince-en-las-algas.jpg",
             "actuaciones": []
@@ -204,6 +313,7 @@
         {
             "nombre": "Los semicuraos",
             "apodo": "Chirigota del Sheriff",
+            "tipo": "chirigota",
             "posicion": "Cuartos de final",
             "imagen": "/src/los-semicuraos.jpg",
             "actuaciones": []
@@ -211,6 +321,7 @@
         {
             "nombre": "Los niños de Criso",
             "apodo": "Chirigota la Ilegalvez",
+            "tipo": "callejera",
             "posicion": "Callejera",
             "imagen": "/src/los-ninos-de-criso.jpg",
             "actuaciones": []
@@ -218,6 +329,7 @@
         {
             "nombre": "¡Que no vengan!",
             "apodo": "Cuarteto del Gago",
+            "tipo": "cuarteto",
             "posicion": "Finalistas",
             "imagen": "/src/que-no-vengan.jpg",
             "actuaciones": []

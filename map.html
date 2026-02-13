@@ -6,15 +6,15 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Carnaval Cádiz</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/styles/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/css/main.css'>
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
-    <div id="map" style="width: 100%; height: 900px">
+<body class="map-page">
+    <div id="map" style="width: 100%; height: 100vh; overflow: hidden; position: relative;">
         <a href="index.html" class="button floating-button">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -30,6 +30,8 @@
         </a>
         <div id="panel" class="panel">
             <div class="wrapper">
+                <div class="sheet-handle"></div>
+                <div class="calle text"></div>
                 <div class="content">
                     <template id="panel-agrupacion-template">
                         <div class="panel-agrupacion">
@@ -45,8 +47,22 @@
                     </template>
                     <template id="panel-actuacion-template">
                         <div class="panel-actuaciones-item">
-                            <span class="text fecha"></span>
-                            <!-- <span class="muted hora"></span> -->
+                            <div class="date-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="calendar-icon">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+                                    <path d="M16 3v4" />
+                                    <path d="M8 3v4" />
+                                    <path d="M4 11h16" />
+                                    <path d="M11 15h1" />
+                                    <path d="M12 15v3" />
+                                </svg>
+                                <span class="text fecha"></span>
+                            </div>
+                            <div class="hours"></div>
                         </div>
                     </template>
                 </div>
